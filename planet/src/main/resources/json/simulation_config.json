@@ -1,0 +1,16 @@
+{
+   "turnDelayMilliseconds": 1000,
+   "totalNumberOfYears": 8,
+   "port": 12345,
+   "configPlanetFilePath": "target/classes/json/planet2.json",
+   "scenario": "NONE",
+   "lowEventThreshold": 20,
+   "mediumEventThreshold": 30,
+   "highEventThreshold": 40,
+   "maxCellsToChangePerMetamorphosis": 1,
+   "maxCellsToChangePerNegativeMetamorphosis": 2,
+   "seasonDuration": 91,
+   "seasonDurationThresholdInMs": 91000,
+   "initialMetamorphosisProbability": 0.0
+ }
+ 

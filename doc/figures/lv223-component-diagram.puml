@@ -1,0 +1,45 @@
+@startuml lv223-component-diagram
+
+skin rose
+
+package "Planet Server" {
+    [PlanetServer]
+    [SeasonHandler]
+    [HealthStateHandler]
+    [MetamorphosisHandler]
+}
+
+package "Robot Colony Agent" {
+    [ColonyManager]
+    [PlanetServerConnection]
+    [RobotEnvironmentFacade]
+    [ResponseDispatcher]
+    [Cartographer]
+    [Farmer]
+    [Harvester]
+    [Miner]
+    [Pipeliner]
+    [Centralizer]
+}
+
+package "GUI Client" {
+    [PlanetGUI]
+}
+
+[PlanetServer] --> [SeasonHandler] : uses
+[PlanetServer] --> [HealthStateHandler] : uses
+[PlanetServer] --> [MetamorphosisHandler] : uses
+[ColonyManager] --> [PlanetServerConnection] : manages
+[ColonyManager] --> [RobotEnvironmentFacade] : uses
+[ColonyManager] --> [Centralizer] : coordinates via
+[PlanetServerConnection] --> [PlanetServer] : JSON over TCP
+[RobotEnvironmentFacade] --> [PlanetServerConnection] : uses
+[RobotEnvironmentFacade] --> [ResponseDispatcher] : dispatches via
+[Cartographer] --> [RobotEnvironmentFacade] : interacts
+[Farmer] --> [RobotEnvironmentFacade] : interacts
+[Harvester] --> [RobotEnvironmentFacade] : interacts
+[Miner] --> [RobotEnvironmentFacade] : interacts
+[Pipeliner] --> [RobotEnvironmentFacade] : interacts
+[PlanetGUI] --> [PlanetServer] : binary-framed JSON (push)
+
+@enduml

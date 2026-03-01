@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentStyleType="text/css"
+   data-diagram-type="DESCRIPTION"
+   height="850px"
+   preserveAspectRatio="none"
+   style="width:1170px;height:850px;background:#FFFFFF;"
+   version="1.1"
+   viewBox="0 0 1170 850"
+   width="1170px"
+   zoomAndPan="magnify"
+   id="svg86"
+   sodipodi:docname="lv223-deployment-diagram.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview86"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.030588235"
+     inkscape:cx="588.46154"
+     inkscape:cy="425"
+     inkscape:window-width="944"
+     inkscape:window-height="245"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg86" />
+  <defs
+     id="defs1">
+    <filter
+       height="1.9125"
+       id="fw5lyqfthctmy"
+       width="1.9125"
+       x="-0.33125"
+       y="-0.33125">
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2"
+         id="feGaussianBlur1" />
+      <feColorMatrix
+         in="blurOut"
+         result="blurOut2"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         id="feColorMatrix1" />
+      <feOffset
+         dx="4"
+         dy="4"
+         in="blurOut2"
+         result="blurOut3"
+         id="feOffset1" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut3"
+         mode="normal"
+         id="feBlend1" />
+    </filter>
+  </defs>
+  <g
+     id="g86">
+    <!--cluster Planet Server Machine-->
+    <g
+       class="cluster"
+       data-qualified-name="Planet Server Machine"
+       data-source-line="8"
+       id="ent0002">
+      <polygon
+         fill="none"
+         filter="url(#fw5lyqfthctmy)"
+         points="292,550.46,302,540.46,951,540.46,951,823.44,941,833.44,292,833.44,292,550.46"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon1" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="941"
+         x2="951"
+         y1="550.46"
+         y2="540.46"
+         id="line1" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="292"
+         x2="941"
+         y1="550.46"
+         y2="550.46"
+         id="line2" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="941"
+         x2="941"
+         y1="550.46"
+         y2="833.44"
+         id="line3" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="158.6416"
+         x="538.1792"
+         y="566.9952"
+         id="text3">Planet Server Machine</text>
+    </g>
+    <!--cluster Planet Server-->
+    <g
+       class="cluster"
+       data-qualified-name="Planet Server Machine.Planet Server"
+       data-source-line="9"
+       id="ent0003">
+      <polygon
+         fill="none"
+         filter="url(#fw5lyqfthctmy)"
+         points="316,588.46,416.4932,588.46,423.4932,610.9483,927,610.9483,927,809.44,316,809.44,316,588.46"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon3" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="316"
+         x2="423.4932"
+         y1="610.9483"
+         y2="610.9483"
+         id="line4" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="94.4932"
+         x="320"
+         y="603.9952"
+         id="text4">Planet Server</text>
+    </g>
+    <!--cluster Robot Colony Agent Machine-->
+    <g
+       class="cluster"
+       data-qualified-name="Robot Colony Agent Machine"
+       data-source-line="18"
+       id="ent0010">
+      <polygon
+         fill="none"
+         filter="url(#fw5lyqfthctmy)"
+         points="16,16,26,6,917,6,917,481.46,907,491.46,16,491.46,16,16"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon4" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="907"
+         x2="917"
+         y1="16"
+         y2="6"
+         id="line5" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="16"
+         x2="907"
+         y1="16"
+         y2="16"
+         id="line6" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="907"
+         x2="907"
+         y1="16"
+         y2="491.46"
+         id="line7" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="208.25"
+         x="358.375"
+         y="32.5352"
+         id="text7">Robot Colony Agent Machine</text>
+    </g>
+    <!--cluster Robot Colony Agent-->
+    <g
+       class="cluster"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent"
+       data-source-line="19"
+       id="ent0011">
+      <polygon
+         fill="none"
+         filter="url(#fw5lyqfthctmy)"
+         points="40,54,190.1016,54,197.1016,76.4883,893,76.4883,893,467.46,40,467.46,40,54"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon7" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="40"
+         x2="197.1016"
+         y1="76.4883"
+         y2="76.4883"
+         id="line8" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="144.1016"
+         x="44"
+         y="69.5352"
+         id="text8">Robot Colony Agent</text>
+    </g>
+    <!--cluster GUI Client Machine-->
+    <g
+       class="cluster"
+       data-qualified-name="GUI Client Machine"
+       data-source-line="33"
+       id="ent0022">
+      <polygon
+         fill="none"
+         filter="url(#fw5lyqfthctmy)"
+         points="941,331.98,951,321.98,1153,321.98,1153,481.46,1143,491.46,941,491.46,941,331.98"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon8" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="1143"
+         x2="1153"
+         y1="331.98"
+         y2="321.98"
+         id="line9" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="941"
+         x2="1143"
+         y1="331.98"
+         y2="331.98"
+         id="line10" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="1143"
+         x2="1143"
+         y1="331.98"
+         y2="491.46"
+         id="line11" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="136.3018"
+         x="974.8491"
+         y="348.5152"
+         id="text11">GUI Client Machine</text>
+    </g>
+    <!--cluster GUI Client-->
+    <g
+       class="cluster"
+       data-qualified-name="GUI Client Machine.GUI Client"
+       data-source-line="34"
+       id="ent0023">
+      <polygon
+         fill="none"
+         filter="url(#fw5lyqfthctmy)"
+         points="965,369.98,1043.1533,369.98,1050.1533,392.4683,1103,392.4683,1103,467.46,965,467.46,965,369.98"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon11" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="965"
+         x2="1050.1533"
+         y1="392.4683"
+         y2="392.4683"
+         id="line12" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-weight="bold"
+         lengthAdjust="spacing"
+         textLength="72.1533"
+         x="969"
+         y="385.5152"
+         id="text12">GUI Client</text>
+    </g>
+    <!--entity PlanetServer-->
+    <g
+       class="entity"
+       data-qualified-name="Planet Server Machine.Planet Server.PlanetServer"
+       data-source-line="10"
+       id="ent0004">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="123.084"
+         x="531.46"
+         y="623.46"
+         id="rect12" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="634.544"
+         y="628.46"
+         id="rect13" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="632.544"
+         y="630.46"
+         id="rect14" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="632.544"
+         y="634.46"
+         id="rect15" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="83.084"
+         x="546.46"
+         y="656.9952"
+         id="text15">PlanetServer</text>
+    </g>
+    <!--entity SeasonHandler-->
+    <g
+       class="entity"
+       data-qualified-name="Planet Server Machine.Planet Server.SeasonHandler"
+       data-source-line="11"
+       id="ent0005">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="140.5908"
+         x="331.7"
+         y="746.95"
+         id="rect16" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="452.2908"
+         y="751.95"
+         id="rect17" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="450.2908"
+         y="753.95"
+         id="rect18" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="450.2908"
+         y="757.95"
+         id="rect19" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="100.5908"
+         x="346.7"
+         y="780.4852"
+         id="text19">SeasonHandler</text>
+    </g>
+    <!--entity HealthStateHandler-->
+    <g
+       class="entity"
+       data-qualified-name="Planet Server Machine.Planet Server.HealthStateHandler"
+       data-source-line="12"
+       id="ent0006">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="170.4297"
+         x="507.79"
+         y="746.95"
+         id="rect20" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="658.2197"
+         y="751.95"
+         id="rect21" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="656.2197"
+         y="753.95"
+         id="rect22" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="656.2197"
+         y="757.95"
+         id="rect23" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="130.4297"
+         x="522.79"
+         y="780.4852"
+         id="text23">HealthStateHandler</text>
+    </g>
+    <!--entity MetamorphosisHandler-->
+    <g
+       class="entity"
+       data-qualified-name="Planet Server Machine.Planet Server.MetamorphosisHandler"
+       data-source-line="13"
+       id="ent0007">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="197.7393"
+         x="713.13"
+         y="746.95"
+         id="rect24" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="890.8693"
+         y="751.95"
+         id="rect25" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="888.8693"
+         y="753.95"
+         id="rect26" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="888.8693"
+         y="757.95"
+         id="rect27" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="157.7393"
+         x="728.13"
+         y="780.4852"
+         id="text27">MetamorphosisHandler</text>
+    </g>
+    <!--entity .-->
+    <g
+       class="entity"
+       data-qualified-name="Planet Server Machine.Planet Server.."
+       data-source-line="14"
+       id="ent0008">
+      <ellipse
+         cx="405"
+         cy="646.71"
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         rx="8"
+         ry="8"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse27" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="4.4297"
+         x="402.7852"
+         y="677.2452"
+         id="text28">.</text>
+    </g>
+    <!--entity ColonyManager-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.ColonyManager"
+       data-source-line="20"
+       id="ent0012">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="145.4033"
+         x="56.3"
+         y="89"
+         id="rect28" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="181.7033"
+         y="94"
+         id="rect29" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="179.7033"
+         y="96"
+         id="rect30" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="179.7033"
+         y="100"
+         id="rect31" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="105.4033"
+         x="71.3"
+         y="122.5352"
+         id="text31">ColonyManager</text>
+    </g>
+    <!--entity PlanetServerConnection-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.PlanetServerConnection"
+       data-source-line="21"
+       id="ent0013">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="200.2891"
+         x="191.86"
+         y="404.98"
+         id="rect32" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="372.1491"
+         y="409.98"
+         id="rect33" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="370.1491"
+         y="411.98"
+         id="rect34" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="370.1491"
+         y="415.98"
+         id="rect35" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="160.2891"
+         x="206.86"
+         y="438.5152"
+         id="text35">PlanetServerConnection</text>
+    </g>
+    <!--entity RobotEnvironmentFacade-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.RobotEnvironmentFacade"
+       data-source-line="22"
+       id="ent0014">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="212.2314"
+         x="374.88"
+         y="212.49"
+         id="rect36" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="567.1114"
+         y="217.49"
+         id="rect37" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="565.1114"
+         y="219.49"
+         id="rect38" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="565.1114"
+         y="223.49"
+         id="rect39" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="172.2314"
+         x="389.88"
+         y="246.0252"
+         id="text39">RobotEnvironmentFacade</text>
+    </g>
+    <!--entity ResponseDispatcher-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.ResponseDispatcher"
+       data-source-line="23"
+       id="ent0015">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="177.6621"
+         x="427.17"
+         y="404.98"
+         id="rect40" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="584.8321"
+         y="409.98"
+         id="rect41" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="582.8321"
+         y="411.98"
+         id="rect42" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="582.8321"
+         y="415.98"
+         id="rect43" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="137.6621"
+         x="442.17"
+         y="438.5152"
+         id="text43">ResponseDispatcher</text>
+    </g>
+    <!--entity Cartographer-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.Cartographer"
+       data-source-line="24"
+       id="ent0016">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="130.2002"
+         x="236.9"
+         y="89"
+         id="rect44" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="347.1002"
+         y="94"
+         id="rect45" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="345.1002"
+         y="96"
+         id="rect46" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="345.1002"
+         y="100"
+         id="rect47" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="90.2002"
+         x="251.9"
+         y="122.5352"
+         id="text47">Cartographer</text>
+    </g>
+    <!--entity Farmer-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.Farmer"
+       data-source-line="25"
+       id="ent0017">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="87.5645"
+         x="402.22"
+         y="89"
+         id="rect48" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="469.7845"
+         y="94"
+         id="rect49" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="467.7845"
+         y="96"
+         id="rect50" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="467.7845"
+         y="100"
+         id="rect51" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="47.5645"
+         x="417.22"
+         y="122.5352"
+         id="text51">Farmer</text>
+    </g>
+    <!--entity Harvester-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.Harvester"
+       data-source-line="26"
+       id="ent0018">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="104.6953"
+         x="524.65"
+         y="89"
+         id="rect52" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="609.3453"
+         y="94"
+         id="rect53" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="607.3453"
+         y="96"
+         id="rect54" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="607.3453"
+         y="100"
+         id="rect55" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="64.6953"
+         x="539.65"
+         y="122.5352"
+         id="text55">Harvester</text>
+    </g>
+    <!--entity Miner-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.Miner"
+       data-source-line="27"
+       id="ent0019">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="78.3223"
+         x="664.84"
+         y="89"
+         id="rect56" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="723.1623"
+         y="94"
+         id="rect57" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="721.1623"
+         y="96"
+         id="rect58" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="721.1623"
+         y="100"
+         id="rect59" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="38.3223"
+         x="679.84"
+         y="122.5352"
+         id="text59">Miner</text>
+    </g>
+    <!--entity Pipeliner-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.Pipeliner"
+       data-source-line="28"
+       id="ent0020">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="98.707"
+         x="778.65"
+         y="89"
+         id="rect60" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="857.357"
+         y="94"
+         id="rect61" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="855.357"
+         y="96"
+         id="rect62" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="855.357"
+         y="100"
+         id="rect63" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="58.707"
+         x="793.65"
+         y="122.5352"
+         id="text63">Pipeliner</text>
+    </g>
+    <!--entity Centralizer-->
+    <g
+       class="entity"
+       data-qualified-name="Robot Colony Agent Machine.Robot Colony Agent.Centralizer"
+       data-source-line="29"
+       id="ent0021">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="114.5186"
+         x="71.74"
+         y="212.49"
+         id="rect64" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="166.2586"
+         y="217.49"
+         id="rect65" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="164.2586"
+         y="219.49"
+         id="rect66" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="164.2586"
+         y="223.49"
+         id="rect67" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="74.5186"
+         x="86.74"
+         y="246.0252"
+         id="text67">Centralizer</text>
+    </g>
+    <!--entity PlanetGUI-->
+    <g
+       class="entity"
+       data-qualified-name="GUI Client Machine.GUI Client.PlanetGUI"
+       data-source-line="35"
+       id="ent0024">
+      <rect
+         fill="#FEFECE"
+         filter="url(#fw5lyqfthctmy)"
+         height="46.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="105.0918"
+         x="981.45"
+         y="404.98"
+         id="rect68" />
+      <rect
+         fill="#FEFECE"
+         height="10"
+         style="stroke:#A80036;stroke-width:1;"
+         width="15"
+         x="1066.5418"
+         y="409.98"
+         id="rect69" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="1064.5418"
+         y="411.98"
+         id="rect70" />
+      <rect
+         fill="#FEFECE"
+         height="2"
+         style="stroke:#A80036;stroke-width:1;"
+         width="4"
+         x="1064.5418"
+         y="415.98"
+         id="rect71" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="65.0918"
+         x="996.45"
+         y="438.5152"
+         id="text71">PlanetGUI</text>
+    </g>
+    <!--link . to .-->
+    <g
+       class="link"
+       data-entity-1="ent0008"
+       data-entity-2="ent0008"
+       data-link-type="association"
+       data-source-line="14"
+       id="lnk9">
+      <path
+         d="M414.07,639.88 C429.26,631.77 449,634.05 449,646.71 C449,659.37 429.26,661.65 414.07,653.53"
+         fill="none"
+         id=".-."
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:7,7;" />
+    </g>
+    <!--link PlanetServer to SeasonHandler-->
+    <g
+       class="link"
+       data-entity-1="ent0004"
+       data-entity-2="ent0005"
+       data-link-type="dependency"
+       data-source-line="39"
+       id="lnk25">
+      <path
+         d="M557.52,670.27 C523.32,692.03 476.923,721.5404 442.673,743.3204"
+         fill="none"
+         id="PlanetServer-to-SeasonHandler"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="437.61,746.54,447.3509,745.0859,441.8292,743.857,443.0581,738.3352,437.61,746.54"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon71" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="28.5645"
+         x="509.94"
+         y="713.5184"
+         id="text72">uses</text>
+    </g>
+    <!--link PlanetServer to HealthStateHandler-->
+    <g
+       class="link"
+       data-entity-1="ent0004"
+       data-entity-2="ent0006"
+       data-link-type="dependency"
+       data-source-line="40"
+       id="lnk26">
+      <path
+         d="M593,670.27 C593,692.1 593,718.97 593,740.75"
+         fill="none"
+         id="PlanetServer-to-HealthStateHandler"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="593,746.75,597,737.75,593,741.75,589,737.75,593,746.75"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon72" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="28.5645"
+         x="594"
+         y="713.5184"
+         id="text73">uses</text>
+    </g>
+    <!--link PlanetServer to MetamorphosisHandler-->
+    <g
+       class="link"
+       data-entity-1="ent0004"
+       data-entity-2="ent0007"
+       data-link-type="dependency"
+       data-source-line="41"
+       id="lnk27">
+      <path
+         d="M633.94,670.42 C673.18,692.19 726.843,721.9599 766.023,743.6899"
+         fill="none"
+         id="PlanetServer-to-MetamorphosisHandler"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="771.27,746.6,765.3395,738.7368,766.8975,744.1749,761.4594,745.7329,771.27,746.6"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon73" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="28.5645"
+         x="716.61"
+         y="713.5184"
+         id="text74">uses</text>
+    </g>
+    <!--link ColonyManager to PlanetServerConnection-->
+    <g
+       class="link"
+       data-entity-1="ent0012"
+       data-entity-2="ent0013"
+       data-link-type="dependency"
+       data-source-line="42"
+       id="lnk28">
+      <path
+         d="M196.78,135.89 C210.82,143.36 224.28,153.06 234,165.49 C290.9,238.27 294.5866,349.542 293.3066,398.552"
+         fill="none"
+         id="ColonyManager-to-PlanetServerConnection"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="293.15,404.55,297.3836,395.6575,293.2805,399.5517,289.3863,395.4486,293.15,404.55"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon74" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="56.5386"
+         x="277.84"
+         y="240.7984"
+         id="text75">manages</text>
+    </g>
+    <!--link ColonyManager to RobotEnvironmentFacade-->
+    <g
+       class="link"
+       data-entity-1="ent0012"
+       data-entity-2="ent0014"
+       data-link-type="dependency"
+       data-source-line="43"
+       id="lnk29">
+      <path
+         d="M194.8,135.95 C257.78,157.69 346.5882,188.3428 409.5582,210.0728"
+         fill="none"
+         id="ColonyManager-to-RobotEnvironmentFacade"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="415.23,212.03,408.0272,205.3129,410.5035,210.399,405.4175,212.8753,415.23,212.03"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon75" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="28.5645"
+         x="327.07"
+         y="179.0584"
+         id="text76">uses</text>
+    </g>
+    <!--link ColonyManager to Centralizer-->
+    <g
+       class="link"
+       data-entity-1="ent0012"
+       data-entity-2="ent0021"
+       data-link-type="dependency"
+       data-source-line="44"
+       id="lnk30">
+      <path
+         d="M129,135.81 C129,157.63 129,184.51 129,206.29"
+         fill="none"
+         id="ColonyManager-to-Centralizer"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="129,212.29,133,203.29,129,207.29,125,203.29,129,212.29"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon76" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="95.6465"
+         x="130"
+         y="179.0584"
+         id="text77">coordinates via</text>
+    </g>
+    <!--link PlanetServerConnection to PlanetServer-->
+    <g
+       class="link"
+       data-entity-1="ent0013"
+       data-entity-2="ent0004"
+       data-link-type="dependency"
+       data-source-line="45"
+       id="lnk31">
+      <path
+         d="M328.71,451.88 C361.15,472.21 409.45,503.25 450,532.46 C491.5,562.36 532.9257,595.7769 561.2657,619.2069"
+         fill="none"
+         id="PlanetServerConnection-to-PlanetServer"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="565.89,623.03,561.5023,614.2125,562.0364,619.8441,556.4049,620.3782,565.89,623.03"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon77" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="231.4482"
+         x="438.54"
+         y="521.0284"
+         id="text78">JSON over TCP (actions / endOfTurn)</text>
+    </g>
+    <!--link RobotEnvironmentFacade to PlanetServerConnection-->
+    <g
+       class="link"
+       data-entity-1="ent0014"
+       data-entity-2="ent0013"
+       data-link-type="dependency"
+       data-source-line="46"
+       id="lnk32">
+      <path
+         d="M458.58,259.33 C422.2,295.99 354.9763,363.7511 318.6163,400.3911"
+         fill="none"
+         id="RobotEnvironmentFacade-to-PlanetServerConnection"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="314.39,404.65,323.5688,401.0792,317.9119,401.1009,317.8902,395.4441,314.39,404.65"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon78" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="28.5645"
+         x="426.15"
+         y="302.5484"
+         id="text79">uses</text>
+    </g>
+    <!--link RobotEnvironmentFacade to ResponseDispatcher-->
+    <g
+       class="link"
+       data-entity-1="ent0014"
+       data-entity-2="ent0015"
+       data-link-type="dependency"
+       data-source-line="47"
+       id="lnk33">
+      <path
+         d="M485.15,259.33 C491.89,295.99 504.0361,362.1087 510.7661,398.7487"
+         fill="none"
+         id="RobotEnvironmentFacade-to-ResponseDispatcher"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="511.85,404.65,514.1583,395.0755,510.9467,399.7323,506.2899,396.5207,511.85,404.65"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon79" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="89.1655"
+         x="494.32"
+         y="302.5484"
+         id="text80">dispatches via</text>
+    </g>
+    <!--link Cartographer to RobotEnvironmentFacade-->
+    <g
+       class="link"
+       data-entity-1="ent0016"
+       data-entity-2="ent0014"
+       data-link-type="dependency"
+       data-source-line="48"
+       id="lnk34">
+      <path
+         d="M331.97,135.96 C350.47,149.76 374.83,167.54 397,182.49 C411.95,192.57 423.6571,200.0303 438.2971,209.0203"
+         fill="none"
+         id="Cartographer-to-RobotEnvironmentFacade"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="443.41,212.16,437.8337,204.0418,439.1492,209.5436,433.6474,210.8591,443.41,212.16"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon80" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="54.5771"
+         x="398"
+         y="179.0584"
+         id="text81">interacts</text>
+    </g>
+    <!--link Farmer to RobotEnvironmentFacade-->
+    <g
+       class="link"
+       data-entity-1="ent0017"
+       data-entity-2="ent0014"
+       data-link-type="dependency"
+       data-source-line="49"
+       id="lnk35">
+      <path
+         d="M452.5,135.81 C458.79,157.63 466.6001,184.7442 472.8701,206.5242"
+         fill="none"
+         id="Farmer-to-RobotEnvironmentFacade"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="474.53,212.29,475.8841,202.5347,473.1468,207.4851,468.1963,204.7478,474.53,212.29"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon81" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="54.5771"
+         x="466.6"
+         y="179.0584"
+         id="text82">interacts</text>
+    </g>
+    <!--link Harvester to RobotEnvironmentFacade-->
+    <g
+       class="link"
+       data-entity-1="ent0018"
+       data-entity-2="ent0014"
+       data-link-type="dependency"
+       data-source-line="50"
+       id="lnk36">
+      <path
+         d="M563.04,135.7 C554.1,149.57 541.98,167.51 530,182.49 C521.92,192.58 516.472,198.7686 507.912,207.6986"
+         fill="none"
+         id="Harvester-to-RobotEnvironmentFacade"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="503.76,212.03,512.8756,208.3008,507.22,208.4205,507.1003,202.7649,503.76,212.03"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon82" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="54.5771"
+         x="543.46"
+         y="179.0584"
+         id="text83">interacts</text>
+    </g>
+    <!--link Miner to RobotEnvironmentFacade-->
+    <g
+       class="link"
+       data-entity-1="ent0019"
+       data-entity-2="ent0014"
+       data-link-type="dependency"
+       data-source-line="51"
+       id="lnk37">
+      <path
+         d="M675.51,135.9 C656.51,150.36 630.61,168.87 606,182.49 C586.04,193.53 568.8177,201.4491 548.2177,209.8291"
+         fill="none"
+         id="Miner-to-RobotEnvironmentFacade"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="542.66,212.09,552.5039,212.4039,547.2915,210.2059,549.4894,204.9935,542.66,212.09"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon83" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="54.5771"
+         x="632.32"
+         y="179.0584"
+         id="text84">interacts</text>
+    </g>
+    <!--link Pipeliner to RobotEnvironmentFacade-->
+    <g
+       class="link"
+       data-entity-1="ent0020"
+       data-entity-2="ent0014"
+       data-link-type="dependency"
+       data-source-line="52"
+       id="lnk38">
+      <path
+         d="M790.43,135.92 C764.39,150.85 728.5,169.89 695,182.49 C660.81,195.34 628.1918,204.5115 593.4018,212.6615"
+         fill="none"
+         id="Pipeliner-to-RobotEnvironmentFacade"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="587.56,214.03,597.2351,215.8718,592.4282,212.8896,595.4104,208.0826,587.56,214.03"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon84" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="54.5771"
+         x="733.78"
+         y="179.0584"
+         id="text85">interacts</text>
+    </g>
+    <!--link PlanetGUI to PlanetServer-->
+    <g
+       class="link"
+       data-entity-1="ent0024"
+       data-entity-2="ent0004"
+       data-link-type="dependency"
+       data-source-line="53"
+       id="lnk39">
+      <path
+         d="M988.65,451.94 C961.03,465.74 925.01,483.69 893,499.46 C803.61,543.52 704.3091,591.7727 645.2291,620.4127"
+         fill="none"
+         id="PlanetGUI-to-PlanetServer"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="639.83,623.03,649.6734,622.7034,644.3292,620.8489,646.1837,615.5047,639.83,623.03"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon85" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="170.0347"
+         x="869.73"
+         y="521.0284"
+         id="text86">binary-framed JSON (push)</text>
+    </g>
+ </g>
+</svg>

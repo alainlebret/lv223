@@ -1,0 +1,2900 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentStyleType="text/css"
+   data-diagram-type="CLASS"
+   height="1249px"
+   preserveAspectRatio="none"
+   style="width:2907px;height:1249px;background:#FFFFFF;"
+   version="1.1"
+   viewBox="0 0 2907 1249"
+   width="2907px"
+   zoomAndPan="magnify"
+   id="svg127"
+   sodipodi:docname="planet-class-diagram.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview127"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.020816653"
+     inkscape:cx="1441.1538"
+     inkscape:cy="624.5"
+     inkscape:window-width="944"
+     inkscape:window-height="245"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg127" />
+  <defs
+     id="defs1">
+    <filter
+       height="1.3041667"
+       id="f1jexgq9h947i7"
+       width="1.1836568"
+       x="-0.066669936"
+       y="-0.11041667">
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2"
+         id="feGaussianBlur1" />
+      <feColorMatrix
+         in="blurOut"
+         result="blurOut2"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         id="feColorMatrix1" />
+      <feOffset
+         dx="4"
+         dy="4"
+         in="blurOut2"
+         result="blurOut3"
+         id="feOffset1" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut3"
+         mode="normal"
+         id="feBlend1" />
+    </filter>
+  </defs>
+  <g
+     id="g127">
+    <!--cluster fr-->
+    <g
+       class="cluster"
+       data-qualified-name="fr"
+       data-source-line="4"
+       id="ent0004">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="16,6,32.876,6,39.876,28.4883,2890,28.4883,2890,1240.92,16,1240.92,16,6"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon1" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="16"
+         x2="39.876"
+         y1="28.4883"
+         y2="28.4883"
+         id="line1" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="10.876"
+         x="20"
+         y="21.5352"
+         id="text1">fr</text>
+    </g>
+    <!--cluster ensicaen-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen"
+       data-source-line="4"
+       id="ent0005">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="40,49,105.0625,49,112.0625,71.4883,2866,71.4883,2866,1216.92,40,1216.92,40,49"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon2" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="40"
+         x2="112.0625"
+         y1="71.4883"
+         y2="71.4883"
+         id="line2" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="59.0625"
+         x="44"
+         y="64.5352"
+         id="text2">ensicaen</text>
+    </g>
+    <!--cluster lv223-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen.lv223"
+       data-source-line="4"
+       id="ent0006">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="64,92,107.8506,92,114.8506,114.4883,2842,114.4883,2842,1192.92,64,1192.92,64,92"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon3" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="64"
+         x2="114.8506"
+         y1="114.4883"
+         y2="114.4883"
+         id="line3" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="37.8506"
+         x="68"
+         y="107.5352"
+         id="text3">lv223</text>
+    </g>
+    <!--cluster planet-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen.lv223.planet"
+       data-source-line="3"
+       id="ent0002">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="88,135,136.3145,135,143.3145,157.4883,2818,157.4883,2818,1168.92,88,1168.92,88,135"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon4" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="88"
+         x2="143.3145"
+         y1="157.4883"
+         y2="157.4883"
+         id="line4" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="42.3145"
+         x="92"
+         y="150.5352"
+         id="text4">planet</text>
+    </g>
+    <!--cluster server-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen.lv223.planet.server"
+       data-source-line="35"
+       id="ent0009">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="870,499.13,917.4395,499.13,924.4395,521.6183,1418,521.6183,1418,1144.92,870,1144.92,870,499.13"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon5" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="870"
+         x2="924.4395"
+         y1="521.6183"
+         y2="521.6183"
+         id="line5" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="41.4395"
+         x="874"
+         y="514.6652"
+         id="text5">server</text>
+    </g>
+    <!--cluster season-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen.lv223.planet.season"
+       data-source-line="67"
+       id="ent0014">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="1614,490.89,1667.0928,490.89,1674.0928,513.3783,1977,513.3783,1977,655.84,1614,655.84,1614,490.89"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon6" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="1614"
+         x2="1674.0928"
+         y1="513.3783"
+         y2="513.3783"
+         id="line6" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="47.0928"
+         x="1618"
+         y="506.4252"
+         id="text6">season</text>
+    </g>
+    <!--cluster healthstates-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen.lv223.planet.healthstates"
+       data-source-line="82"
+       id="ent0017">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="2001,499.13,2089.4688,499.13,2096.4688,521.6183,2794,521.6183,2794,1087.21,2001,1087.21,2001,499.13"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon7" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="2001"
+         x2="2096.4688"
+         y1="521.6183"
+         y2="521.6183"
+         id="line7" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="82.4688"
+         x="2005"
+         y="514.6652"
+         id="text7">healthstates</text>
+    </g>
+    <!--cluster metamorphosis-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen.lv223.planet.metamorphosis"
+       data-source-line="107"
+       id="ent0028">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="112,235.71,223.6563,235.71,230.6563,258.1983,846,258.1983,846,846.79,112,846.79,112,235.71"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon8" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="112"
+         x2="230.6563"
+         y1="258.1983"
+         y2="258.1983"
+         id="line8" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="105.6563"
+         x="116"
+         y="251.2452"
+         id="text8">metamorphosis</text>
+    </g>
+    <!--cluster utils-->
+    <g
+       class="cluster"
+       data-qualified-name="fr.ensicaen.lv223.planet.utils"
+       data-source-line="123"
+       id="ent0033">
+      <polygon
+         fill="none"
+         filter="url(#f1jexgq9h947i7)"
+         points="870,178,905.1553,178,912.1553,200.4883,1689,200.4883,1689,441.89,870,441.89,870,178"
+         style="stroke:#000000;stroke-width:1.5;"
+         id="polygon9" />
+      <line
+         style="stroke:#000000;stroke-width:1.5;"
+         x1="870"
+         x2="912.1553"
+         y1="200.4883"
+         y2="200.4883"
+         id="line9" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="29.1553"
+         x="874"
+         y="193.5352"
+         id="text9">utils</text>
+    </g>
+    <!--class Planet-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.Planet"
+       data-source-line="4"
+       id="ent0003">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="163.418"
+         style="stroke:#A80036;stroke-width:1;"
+         width="331.0195"
+         x="1708.49"
+         y="237.74"
+         id="rect9" />
+      <ellipse
+         cx="1849.1292"
+         cy="253.74"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse9" />
+      <path
+         d="M1851.6023,259.8831 Q1851.0213,260.1819 1850.3821,260.3313 Q1849.7429,260.4807 1849.0374,260.4807 Q1846.5305,260.4807 1845.2107,258.8289 Q1843.8909,257.177 1843.8909,254.0559 Q1843.8909,250.9265 1845.2107,249.2747 Q1846.5305,247.6228 1849.0374,247.6228 Q1849.7429,247.6228 1850.3904,247.7722 Q1851.0379,247.9216 1851.6023,248.2205 L1851.6023,250.9431 Q1850.9714,250.3621 1850.3779,250.0923 Q1849.7844,249.8225 1849.1536,249.8225 Q1847.8088,249.8225 1847.124,250.8892 Q1846.4392,251.9558 1846.4392,254.0559 Q1846.4392,256.1477 1847.124,257.2144 Q1847.8088,258.281 1849.1536,258.281 Q1849.7844,258.281 1850.3779,258.0112 Q1850.9714,257.7415 1851.6023,257.1604 Z "
+         fill="#000000"
+         id="path9" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="41.2412"
+         x="1869.6292"
+         y="259.031"
+         id="text10">Planet</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1709.49"
+         x2="2038.5095"
+         y1="269.74"
+         y2="269.74"
+         id="line10" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g10">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1716.49"
+           y="280.4841"
+           id="rect10" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="84.3965"
+         x="1728.49"
+         y="287.2752"
+         id="text11">grid : Cell[][]</text>
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g11">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1716.49"
+           y="296.9724"
+           id="rect11" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="272.5488"
+         x="1728.49"
+         y="303.7634"
+         id="text12">healthStateHandler : HealthStateHandler</text>
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g12">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1716.49"
+           y="313.4607"
+           id="rect12" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="214.0674"
+         x="1728.49"
+         y="320.2517"
+         id="text13">seasonHandler : SeasonHandler</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1709.49"
+         x2="2038.5095"
+         y1="327.2048"
+         y2="327.2048"
+         id="line13" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g13">
+        <ellipse
+           cx="1719.49"
+           cy="340.949"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse13" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="116.6553"
+         x="1728.49"
+         y="344.74"
+         id="text14">getGrid() : Cell[][]</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g14">
+        <ellipse
+           cx="1719.49"
+           cy="357.4373"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse14" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="305.0195"
+         x="1728.49"
+         y="361.2283"
+         id="text15">getHealthStateHandler() : HealthStateHandler</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g15">
+        <ellipse
+           cx="1719.49"
+           cy="373.9255"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse15" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="245.3418"
+         x="1728.49"
+         y="377.7166"
+         id="text16">getSeasonHandler() : SeasonHandler</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g16">
+        <ellipse
+           cx="1719.49"
+           cy="390.4138"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse16" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="113.3672"
+         x="1728.49"
+         y="394.2048"
+         id="text17">nextTurn() : void</text>
+    </g>
+    <!--class Cell-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.Cell"
+       data-source-line="14"
+       id="ent0007">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="130.4414"
+         style="stroke:#A80036;stroke-width:1;"
+         width="161.2969"
+         x="1434.35"
+         y="517.64"
+         id="rect17" />
+      <ellipse
+         cx="1497.9584"
+         cy="533.64"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse17" />
+      <path
+         d="M1500.4315,539.7831 Q1499.8505,540.0819 1499.2113,540.2313 Q1498.5722,540.3807 1497.8666,540.3807 Q1495.3598,540.3807 1494.0399,538.7289 Q1492.7201,537.077 1492.7201,533.9559 Q1492.7201,530.8265 1494.0399,529.1747 Q1495.3598,527.5228 1497.8666,527.5228 Q1498.5722,527.5228 1499.2196,527.6722 Q1499.8671,527.8216 1500.4315,528.1205 L1500.4315,530.8431 Q1499.8007,530.2621 1499.2072,529.9923 Q1498.6137,529.7225 1497.9828,529.7225 Q1496.6381,529.7225 1495.9533,530.7892 Q1495.2685,531.8558 1495.2685,533.9559 Q1495.2685,536.0477 1495.9533,537.1144 Q1496.6381,538.181 1497.9828,538.181 Q1498.6137,538.181 1499.2072,537.9112 Q1499.8007,537.6415 1500.4315,537.0604 Z "
+         fill="#000000"
+         id="path17" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="25.5801"
+         x="1518.4584"
+         y="538.931"
+         id="text18">Cell</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1435.35"
+         x2="1594.6469"
+         y1="549.64"
+         y2="549.64"
+         id="line18" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g18">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1442.35"
+           y="560.3841"
+           id="rect18" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="100.8096"
+         x="1454.35"
+         y="567.1752"
+         id="text19">type : CellType</text>
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g19">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1442.35"
+           y="576.8724"
+           id="rect19" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="65.0576"
+         x="1454.35"
+         y="583.6634"
+         id="text20">units : int</text>
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g20">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1442.35"
+           y="593.3607"
+           id="rect20" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="111.8906"
+         x="1454.35"
+         y="600.1517"
+         id="text21">visited : boolean</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1435.35"
+         x2="1594.6469"
+         y1="607.1048"
+         y2="607.1048"
+         id="line21" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g21">
+        <ellipse
+           cx="1445.35"
+           cy="620.849"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse21" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="135.2969"
+         x="1454.35"
+         y="624.64"
+         id="text22">getType() : CellType</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g22">
+        <ellipse
+           cx="1445.35"
+           cy="637.3373"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse22" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="96.9404"
+         x="1454.35"
+         y="641.1283"
+         id="text23">getUnits() : int</text>
+    </g>
+    <!--class CellType-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.CellType"
+       data-source-line="22"
+       id="ent0008">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="196.3945"
+         style="stroke:#A80036;stroke-width:1;"
+         width="111.8184"
+         x="2382.09"
+         y="221.25"
+         id="rect23" />
+      <ellipse
+         cx="2406.747"
+         cy="237.25"
+         fill="#EB937F"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse23" />
+      <path
+         d="M2410.3612,243.75 L2402.6415,243.75 L2402.6415,231.3569 L2410.3612,231.3569 L2410.3612,233.5151 L2405.0902,233.5151 L2405.0902,236.188 L2409.8632,236.188 L2409.8632,238.3462 L2405.0902,238.3462 L2405.0902,241.5918 L2410.3612,241.5918 Z "
+         fill="#000000"
+         id="path23" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="58.3584"
+         x="2422.893"
+         y="242.541"
+         id="text24">CellType</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2383.09"
+         x2="2492.9084"
+         y1="253.25"
+         y2="253.25"
+         id="line24" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="46.9287"
+         x="2388.09"
+         y="270.7852"
+         id="text25">WATER</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="59.999"
+         x="2388.09"
+         y="287.2734"
+         id="text26">MINERAL</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="51.2148"
+         x="2388.09"
+         y="303.7617"
+         id="text27">FOREST</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="50.7568"
+         x="2388.09"
+         y="320.25"
+         id="text28">PRAIRIE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="85.8184"
+         x="2388.09"
+         y="336.7383"
+         id="text29">DRY_PRAIRIE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="86.1738"
+         x="2388.09"
+         y="353.2266"
+         id="text30">WET_PRAIRIE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="50.9072"
+         x="2388.09"
+         y="369.7148"
+         id="text31">DESERT</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="44.6934"
+         x="2388.09"
+         y="386.2031"
+         id="text32">CROPS</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="99.8184"
+         x="2388.09"
+         y="402.6914"
+         id="text33">IMPENETRABLE</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2383.09"
+         x2="2492.9084"
+         y1="409.6445"
+         y2="409.6445"
+         id="line33" />
+    </g>
+    <!--class RequestHandler-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.server.RequestHandler"
+       data-source-line="36"
+       id="ent0010">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="64.4883"
+         style="stroke:#A80036;stroke-width:1;"
+         width="361.2207"
+         x="886.39"
+         y="774.55"
+         id="rect33" />
+      <ellipse
+         cx="1009.0404"
+         cy="790.55"
+         fill="#B4A7E5"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse33" />
+      <path
+         d="M1005.4681,786.8151 L1005.4681,784.6569 L1012.8475,784.6569 L1012.8475,786.8151 L1010.3822,786.8151 L1010.3822,794.8918 L1012.8475,794.8918 L1012.8475,797.05 L1005.4681,797.05 L1005.4681,794.8918 L1007.9335,794.8918 L1007.9335,786.8151 Z "
+         fill="#000000"
+         id="path33" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="107.4199"
+         x="1029.5404"
+         y="795.841"
+         id="text34">RequestHandler</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="887.39"
+         x2="1246.6107"
+         y1="806.55"
+         y2="806.55"
+         id="line34" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="887.39"
+         x2="1246.6107"
+         y1="814.55"
+         y2="814.55"
+         id="line35" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g35">
+        <ellipse
+           cx="897.39"
+           cy="828.2941"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse35" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="335.2207"
+         x="906.39"
+         y="832.0852"
+         id="text35">handleRequest(context : RequestContext) : String</text>
+    </g>
+    <!--class RequestContext-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.server.RequestContext"
+       data-source-line="40"
+       id="ent0011">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="163.418"
+         style="stroke:#A80036;stroke-width:1;"
+         width="289.7031"
+         x="922.15"
+         y="965.5"
+         id="rect35" />
+      <ellipse
+         cx="1008.6725"
+         cy="981.5"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse36" />
+      <path
+         d="M1011.1456,987.6431 Q1010.5646,987.9419 1009.9254,988.0913 Q1009.2862,988.2407 1008.5807,988.2407 Q1006.0738,988.2407 1004.754,986.5889 Q1003.4342,984.937 1003.4342,981.8159 Q1003.4342,978.6865 1004.754,977.0347 Q1006.0738,975.3828 1008.5807,975.3828 Q1009.2862,975.3828 1009.9337,975.5322 Q1010.5812,975.6816 1011.1456,975.9805 L1011.1456,978.7031 Q1010.5147,978.1221 1009.9212,977.8523 Q1009.3277,977.5825 1008.6969,977.5825 Q1007.3521,977.5825 1006.6673,978.6492 Q1005.9825,979.7158 1005.9825,981.8159 Q1005.9825,983.9077 1006.6673,984.9744 Q1007.3521,986.041 1008.6969,986.041 Q1009.3277,986.041 1009.9212,985.7712 Q1010.5147,985.5015 1011.1456,984.9204 Z "
+         fill="#000000"
+         id="path36" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="108.1582"
+         x="1029.1725"
+         y="986.791"
+         id="text36">RequestContext</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="923.15"
+         x2="1210.8531"
+         y1="997.5"
+         y2="997.5"
+         id="line36" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g36">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="930.15"
+           y="1008.2441"
+           id="rect36" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="206.8145"
+         x="942.15"
+         y="1015.0352"
+         id="text37">actionRequest : ActionRequest</text>
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g37">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="930.15"
+           y="1024.7324"
+           id="rect37" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="137.8125"
+         x="942.15"
+         y="1031.5234"
+         id="text38">server : PlanetServer</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="923.15"
+         x2="1210.8531"
+         y1="1038.4766"
+         y2="1038.4766"
+         id="line38" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g38">
+        <ellipse
+           cx="933.15"
+           cy="1052.2207"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse38" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="127.5313"
+         x="942.15"
+         y="1056.0117"
+         id="text39">getAction() : String</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g39">
+        <ellipse
+           cx="933.15"
+           cy="1068.709"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse39" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="137.0742"
+         x="942.15"
+         y="1072.5"
+         id="text40">getRobotId() : String</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g40">
+        <ellipse
+           cx="933.15"
+           cy="1085.1973"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse40" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="157.0078"
+         x="942.15"
+         y="1088.9883"
+         id="text41">getRobotType() : String</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g41">
+        <ellipse
+           cx="933.15"
+           cy="1101.6855"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse41" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="263.7031"
+         x="942.15"
+         y="1105.4766"
+         id="text42">getParameters() : Map&lt;String, Object&gt;</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g42">
+        <ellipse
+           cx="933.15"
+           cy="1118.1738"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse42" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="169.0869"
+         x="942.15"
+         y="1121.9648"
+         id="text43">getServer() : PlanetServer</text>
+    </g>
+    <!--class RequestType-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.server.RequestType"
+       data-source-line="50"
+       id="ent0012">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="163.418"
+         style="stroke:#A80036;stroke-width:1;"
+         width="119.1035"
+         x="1282.45"
+         y="725.08"
+         id="rect43" />
+      <ellipse
+         cx="1297.45"
+         cy="741.08"
+         fill="#EB937F"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse43" />
+      <path
+         d="M1301.0643,747.58 L1293.3445,747.58 L1293.3445,735.1869 L1301.0643,735.1869 L1301.0643,737.3451 L1295.7933,737.3451 L1295.7933,740.018 L1300.5662,740.018 L1300.5662,742.1762 L1295.7933,742.1762 L1295.7933,745.4218 L1301.0643,745.4218 Z "
+         fill="#000000"
+         id="path43" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="87.1035"
+         x="1311.45"
+         y="746.371"
+         id="text44">RequestType</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1283.45"
+         x2="1400.5535"
+         y1="757.08"
+         y2="757.08"
+         id="line44" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="37.2285"
+         x="1288.45"
+         y="774.6152"
+         id="text45">SCAN</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="39.6758"
+         x="1288.45"
+         y="791.1034"
+         id="text46">MOVE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="74.9902"
+         x="1288.45"
+         y="807.5917"
+         id="text47">CULTIVATE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="61.9336"
+         x="1288.45"
+         y="824.08"
+         id="text48">HARVEST</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="27.0977"
+         x="1288.45"
+         y="840.5683"
+         id="text49">PIPE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="37.2354"
+         x="1288.45"
+         y="857.0566"
+         id="text50">PUMP</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="34.0225"
+         x="1288.45"
+         y="873.5448"
+         id="text51">MINE</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1283.45"
+         x2="1400.5535"
+         y1="880.498"
+         y2="880.498"
+         id="line51" />
+    </g>
+    <!--class PlanetServer-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.server.PlanetServer"
+       data-source-line="60"
+       id="ent0013">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="97.4648"
+         style="stroke:#A80036;stroke-width:1;"
+         width="404.9639"
+         x="994.52"
+         y="534.13"
+         id="rect51" />
+      <ellipse
+         cx="1151.2099"
+         cy="550.13"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse51" />
+      <path
+         d="M1153.6831,556.2731 Q1153.102,556.5719 1152.4629,556.7213 Q1151.8237,556.8707 1151.1181,556.8707 Q1148.6113,556.8707 1147.2915,555.2189 Q1145.9717,553.567 1145.9717,550.4459 Q1145.9717,547.3165 1147.2915,545.6647 Q1148.6113,544.0128 1151.1181,544.0128 Q1151.8237,544.0128 1152.4712,544.1622 Q1153.1186,544.3116 1153.6831,544.6105 L1153.6831,547.3331 Q1153.0522,546.7521 1152.4587,546.4823 Q1151.8652,546.2125 1151.2344,546.2125 Q1149.8896,546.2125 1149.2048,547.2792 Q1148.52,548.3458 1148.52,550.4459 Q1148.52,552.5377 1149.2048,553.6044 Q1149.8896,554.671 1151.2344,554.671 Q1151.8652,554.671 1152.4587,554.4012 Q1153.0522,554.1315 1153.6831,553.5504 Z "
+         fill="#000000"
+         id="path51" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="83.084"
+         x="1171.7099"
+         y="555.421"
+         id="text52">PlanetServer</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="995.52"
+         x2="1398.4839"
+         y1="566.13"
+         y2="566.13"
+         id="line52" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g52">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1002.52"
+           y="576.8741"
+           id="rect52" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="96.8447"
+         x="1014.52"
+         y="583.6652"
+         id="text53">planet : Planet</text>
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g53">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1002.52"
+           y="593.3624"
+           id="rect53" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="378.9639"
+         x="1014.52"
+         y="600.1534"
+         id="text54">requestHandlers : Map&lt;RequestType, RequestHandler&gt;</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="995.52"
+         x2="1398.4839"
+         y1="607.1066"
+         y2="607.1066"
+         id="line54" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g54">
+        <ellipse
+           cx="1005.52"
+           cy="620.8507"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse54" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="286.4736"
+         x="1014.52"
+         y="624.6417"
+         id="text55">answerToRequest(request : String) : String</text>
+    </g>
+    <!--class Season-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.season.Season"
+       data-source-line="68"
+       id="ent0015">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="113.9531"
+         style="stroke:#A80036;stroke-width:1;"
+         width="79.4961"
+         x="1630.25"
+         y="525.89"
+         id="rect55" />
+      <ellipse
+         cx="1645.25"
+         cy="541.89"
+         fill="#EB937F"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse55" />
+      <path
+         d="M1648.8643,548.39 L1641.1445,548.39 L1641.1445,535.9969 L1648.8643,535.9969 L1648.8643,538.1551 L1643.5933,538.1551 L1643.5933,540.828 L1648.3662,540.828 L1648.3662,542.9862 L1643.5933,542.9862 L1643.5933,546.2318 L1648.8643,546.2318 Z "
+         fill="#000000"
+         id="path55" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="47.4961"
+         x="1659.25"
+         y="547.181"
+         id="text56">Season</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1631.25"
+         x2="1708.7461"
+         y1="557.89"
+         y2="557.89"
+         id="line56" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="57.7979"
+         x="1636.25"
+         y="575.4252"
+         id="text57">SUMMER</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="60.3135"
+         x="1636.25"
+         y="591.9134"
+         id="text58">AUTUMN</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="51.6455"
+         x="1636.25"
+         y="608.4017"
+         id="text59">WINTER</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="48.624"
+         x="1636.25"
+         y="624.89"
+         id="text60">SPRING</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1631.25"
+         x2="1708.7461"
+         y1="631.8431"
+         y2="631.8431"
+         id="line60" />
+    </g>
+    <!--class SeasonHandler-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.season.SeasonHandler"
+       data-source-line="75"
+       id="ent0016">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="97.4648"
+         style="stroke:#A80036;stroke-width:1;"
+         width="216.709"
+         x="1744.65"
+         y="534.13"
+         id="rect60" />
+      <ellipse
+         cx="1798.4591"
+         cy="550.13"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse60" />
+      <path
+         d="M1800.9322,556.2731 Q1800.3512,556.5719 1799.712,556.7213 Q1799.0729,556.8707 1798.3673,556.8707 Q1795.8604,556.8707 1794.5406,555.2189 Q1793.2208,553.567 1793.2208,550.4459 Q1793.2208,547.3165 1794.5406,545.6647 Q1795.8604,544.0128 1798.3673,544.0128 Q1799.0729,544.0128 1799.7203,544.1622 Q1800.3678,544.3116 1800.9322,544.6105 L1800.9322,547.3331 Q1800.3014,546.7521 1799.7079,546.4823 Q1799.1144,546.2125 1798.4835,546.2125 Q1797.1388,546.2125 1796.454,547.2792 Q1795.7691,548.3458 1795.7691,550.4459 Q1795.7691,552.5377 1796.454,553.6044 Q1797.1388,554.671 1798.4835,554.671 Q1799.1144,554.671 1799.7079,554.4012 Q1800.3014,554.1315 1800.9322,553.5504 Z "
+         fill="#000000"
+         id="path60" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="100.5908"
+         x="1818.9591"
+         y="555.421"
+         id="text61">SeasonHandler</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1745.65"
+         x2="1960.359"
+         y1="566.13"
+         y2="566.13"
+         id="line61" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g61">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1752.65"
+           y="576.8741"
+           id="rect61" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="157.3223"
+         x="1764.65"
+         y="583.6652"
+         id="text62">currentSeason : Season</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1745.65"
+         x2="1960.359"
+         y1="590.6183"
+         y2="590.6183"
+         id="line62" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g62">
+        <ellipse
+           cx="1755.65"
+           cy="604.3624"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse62" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="190.709"
+         x="1764.65"
+         y="608.1534"
+         id="text63">getCurrentSeason() : Season</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g63">
+        <ellipse
+           cx="1755.65"
+           cy="620.8507"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse63" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="147.4033"
+         x="1764.65"
+         y="624.6417"
+         id="text64">changeSeason() : void</text>
+    </g>
+    <!--class HealthState-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.healthstates.HealthState"
+       data-source-line="83"
+       id="ent0018">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="80.9766"
+         style="stroke:#A80036;stroke-width:1;"
+         width="264.8135"
+         x="2157.59"
+         y="766.3"
+         id="rect64" />
+      <ellipse
+         cx="2247.0793"
+         cy="782.3"
+         fill="#B4A7E5"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse64" />
+      <path
+         d="M2243.507,778.5651 L2243.507,776.4069 L2250.8864,776.4069 L2250.8864,778.5651 L2248.4211,778.5651 L2248.4211,786.6418 L2250.8864,786.6418 L2250.8864,788.8 L2243.507,788.8 L2243.507,786.6418 L2245.9723,786.6418 L2245.9723,778.5651 Z "
+         fill="#000000"
+         id="path64" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="77.335"
+         x="2267.5793"
+         y="787.591"
+         id="text65">HealthState</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2158.59"
+         x2="2421.4035"
+         y1="798.3"
+         y2="798.3"
+         id="line65" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2158.59"
+         x2="2421.4035"
+         y1="806.3"
+         y2="806.3"
+         id="line66" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g66">
+        <ellipse
+           cx="2168.59"
+           cy="820.0441"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse66" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="238.8135"
+         x="2177.59"
+         y="823.8352"
+         id="text66">updateHealth(planet : Planet) : void</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g67">
+        <ellipse
+           cx="2168.59"
+           cy="836.5324"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse67" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="168.1777"
+         x="2177.59"
+         y="840.3234"
+         id="text67">getNumericalValue() : int</text>
+    </g>
+    <!--class GoodHealthState-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.healthstates.GoodHealthState"
+       data-source-line="88"
+       id="ent0019">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="48"
+         style="stroke:#A80036;stroke-width:1;"
+         width="145.4629"
+         x="2017.27"
+         y="1023.21"
+         id="rect67" />
+      <ellipse
+         cx="2032.27"
+         cy="1039.21"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse68" />
+      <path
+         d="M2034.7431,1045.3531 Q2034.1621,1045.6519 2033.5229,1045.8013 Q2032.8838,1045.9507 2032.1782,1045.9507 Q2029.6714,1045.9507 2028.3515,1044.2989 Q2027.0317,1042.647 2027.0317,1039.5259 Q2027.0317,1036.3965 2028.3515,1034.7447 Q2029.6714,1033.0928 2032.1782,1033.0928 Q2032.8838,1033.0928 2033.5312,1033.2422 Q2034.1787,1033.3916 2034.7431,1033.6905 L2034.7431,1036.4131 Q2034.1123,1035.8321 2033.5188,1035.5623 Q2032.9253,1035.2925 2032.2944,1035.2925 Q2030.9497,1035.2925 2030.2649,1036.3592 Q2029.5801,1037.4258 2029.5801,1039.5259 Q2029.5801,1041.6177 2030.2649,1042.6844 Q2030.9497,1043.751 2032.2944,1043.751 Q2032.9253,1043.751 2033.5188,1043.4812 Q2034.1123,1043.2115 2034.7431,1042.6304 Z "
+         fill="#000000"
+         id="path68" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="113.4629"
+         x="2046.27"
+         y="1044.501"
+         id="text68">GoodHealthState</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2018.27"
+         x2="2161.7329"
+         y1="1055.21"
+         y2="1055.21"
+         id="line68" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2018.27"
+         x2="2161.7329"
+         y1="1063.21"
+         y2="1063.21"
+         id="line69" />
+    </g>
+    <!--class MelancholyHealthState-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.healthstates.MelancholyHealthState"
+       data-source-line="91"
+       id="ent0021">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="48"
+         style="stroke:#A80036;stroke-width:1;"
+         width="185.4805"
+         x="2197.26"
+         y="1023.21"
+         id="rect69" />
+      <ellipse
+         cx="2212.26"
+         cy="1039.21"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse69" />
+      <path
+         d="M2214.7331,1045.3531 Q2214.1521,1045.6519 2213.5129,1045.8013 Q2212.8738,1045.9507 2212.1682,1045.9507 Q2209.6614,1045.9507 2208.3415,1044.2989 Q2207.0217,1042.647 2207.0217,1039.5259 Q2207.0217,1036.3965 2208.3415,1034.7447 Q2209.6614,1033.0928 2212.1682,1033.0928 Q2212.8738,1033.0928 2213.5212,1033.2422 Q2214.1687,1033.3916 2214.7331,1033.6905 L2214.7331,1036.4131 Q2214.1023,1035.8321 2213.5088,1035.5623 Q2212.9153,1035.2925 2212.2844,1035.2925 Q2210.9397,1035.2925 2210.2549,1036.3592 Q2209.5701,1037.4258 2209.5701,1039.5259 Q2209.5701,1041.6177 2210.2549,1042.6844 Q2210.9397,1043.751 2212.2844,1043.751 Q2212.9153,1043.751 2213.5088,1043.4812 Q2214.1023,1043.2115 2214.7331,1042.6304 Z "
+         fill="#000000"
+         id="path69" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="153.4805"
+         x="2226.26"
+         y="1044.501"
+         id="text69">MelancholyHealthState</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2198.26"
+         x2="2381.7405"
+         y1="1055.21"
+         y2="1055.21"
+         id="line70" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2198.26"
+         x2="2381.7405"
+         y1="1063.21"
+         y2="1063.21"
+         id="line71" />
+    </g>
+    <!--class CriticalHealthState-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.healthstates.CriticalHealthState"
+       data-source-line="94"
+       id="ent0023">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="48"
+         style="stroke:#A80036;stroke-width:1;"
+         width="157.0293"
+         x="2417.49"
+         y="1023.21"
+         id="rect71" />
+      <ellipse
+         cx="2432.49"
+         cy="1039.21"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse71" />
+      <path
+         d="M2434.9631,1045.3531 Q2434.3821,1045.6519 2433.7429,1045.8013 Q2433.1038,1045.9507 2432.3982,1045.9507 Q2429.8914,1045.9507 2428.5715,1044.2989 Q2427.2517,1042.647 2427.2517,1039.5259 Q2427.2517,1036.3965 2428.5715,1034.7447 Q2429.8914,1033.0928 2432.3982,1033.0928 Q2433.1038,1033.0928 2433.7512,1033.2422 Q2434.3987,1033.3916 2434.9631,1033.6905 L2434.9631,1036.4131 Q2434.3323,1035.8321 2433.7388,1035.5623 Q2433.1453,1035.2925 2432.5144,1035.2925 Q2431.1697,1035.2925 2430.4849,1036.3592 Q2429.8001,1037.4258 2429.8001,1039.5259 Q2429.8001,1041.6177 2430.4849,1042.6844 Q2431.1697,1043.751 2432.5144,1043.751 Q2433.1453,1043.751 2433.7388,1043.4812 Q2434.3323,1043.2115 2434.9631,1042.6304 Z "
+         fill="#000000"
+         id="path71" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="125.0293"
+         x="2446.49"
+         y="1044.501"
+         id="text71">CriticalHealthState</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2418.49"
+         x2="2573.5193"
+         y1="1055.21"
+         y2="1055.21"
+         id="line72" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2418.49"
+         x2="2573.5193"
+         y1="1063.21"
+         y2="1063.21"
+         id="line73" />
+    </g>
+    <!--class UnstableHealthState-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.healthstates.UnstableHealthState"
+       data-source-line="97"
+       id="ent0025">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="48"
+         style="stroke:#A80036;stroke-width:1;"
+         width="168.4863"
+         x="2609.76"
+         y="1023.21"
+         id="rect73" />
+      <ellipse
+         cx="2624.76"
+         cy="1039.21"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse73" />
+      <path
+         d="M2627.2331,1045.3531 Q2626.6521,1045.6519 2626.0129,1045.8013 Q2625.3738,1045.9507 2624.6682,1045.9507 Q2622.1614,1045.9507 2620.8415,1044.2989 Q2619.5217,1042.647 2619.5217,1039.5259 Q2619.5217,1036.3965 2620.8415,1034.7447 Q2622.1614,1033.0928 2624.6682,1033.0928 Q2625.3738,1033.0928 2626.0212,1033.2422 Q2626.6687,1033.3916 2627.2331,1033.6905 L2627.2331,1036.4131 Q2626.6023,1035.8321 2626.0088,1035.5623 Q2625.4153,1035.2925 2624.7844,1035.2925 Q2623.4397,1035.2925 2622.7549,1036.3592 Q2622.0701,1037.4258 2622.0701,1039.5259 Q2622.0701,1041.6177 2622.7549,1042.6844 Q2623.4397,1043.751 2624.7844,1043.751 Q2625.4153,1043.751 2626.0088,1043.4812 Q2626.6023,1043.2115 2627.2331,1042.6304 Z "
+         fill="#000000"
+         id="path73" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="136.4863"
+         x="2638.76"
+         y="1044.501"
+         id="text73">UnstableHealthState</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2610.76"
+         x2="2777.2463"
+         y1="1055.21"
+         y2="1055.21"
+         id="line74" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2610.76"
+         x2="2777.2463"
+         y1="1063.21"
+         y2="1063.21"
+         id="line75" />
+    </g>
+    <!--class HealthStateHandler-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.healthstates.HealthStateHandler"
+       data-source-line="100"
+       id="ent0027">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="97.4648"
+         style="stroke:#A80036;stroke-width:1;"
+         width="264.8135"
+         x="2052.59"
+         y="534.13"
+         id="rect75" />
+      <ellipse
+         cx="2115.5319"
+         cy="550.13"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse75" />
+      <path
+         d="M2118.005,556.2731 Q2117.424,556.5719 2116.7848,556.7213 Q2116.1457,556.8707 2115.4401,556.8707 Q2112.9333,556.8707 2111.6134,555.2189 Q2110.2936,553.567 2110.2936,550.4459 Q2110.2936,547.3165 2111.6134,545.6647 Q2112.9333,544.0128 2115.4401,544.0128 Q2116.1457,544.0128 2116.7931,544.1622 Q2117.4406,544.3116 2118.005,544.6105 L2118.005,547.3331 Q2117.3742,546.7521 2116.7807,546.4823 Q2116.1872,546.2125 2115.5563,546.2125 Q2114.2116,546.2125 2113.5268,547.2792 Q2112.842,548.3458 2112.842,550.4459 Q2112.842,552.5377 2113.5268,553.6044 Q2114.2116,554.671 2115.5563,554.671 Q2116.1872,554.671 2116.7807,554.4012 Q2117.3742,554.1315 2118.005,553.5504 Z "
+         fill="#000000"
+         id="path75" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="130.4297"
+         x="2136.0319"
+         y="555.421"
+         id="text75">HealthStateHandler</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2053.59"
+         x2="2316.4035"
+         y1="566.13"
+         y2="566.13"
+         id="line76" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g76">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="2060.59"
+           y="576.8741"
+           id="rect76" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="217"
+         x="2072.59"
+         y="583.6652"
+         id="text76">currentHealthState : HealthState</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="2053.59"
+         x2="2316.4035"
+         y1="590.6183"
+         y2="590.6183"
+         id="line77" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g77">
+        <ellipse
+           cx="2063.59"
+           cy="604.3624"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse77" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="238.8135"
+         x="2072.59"
+         y="608.1534"
+         id="text77">updateHealth(planet : Planet) : void</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g78">
+        <ellipse
+           cx="2063.59"
+           cy="620.8507"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse78" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="198.8301"
+         x="2072.59"
+         y="624.6417"
+         id="text78">getHealthState() : HealthState</text>
+    </g>
+    <!--class MetamorphosisStrategy-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.metamorphosis.MetamorphosisStrategy"
+       data-source-line="108"
+       id="ent0029">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="80.9766"
+         style="stroke:#A80036;stroke-width:1;"
+         width="533.6436"
+         x="212.18"
+         y="542.38"
+         id="rect78" />
+      <ellipse
+         cx="394.7713"
+         cy="558.38"
+         fill="#B4A7E5"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse79" />
+      <path
+         d="M391.199,554.6451 L391.199,552.4869 L398.5784,552.4869 L398.5784,554.6451 L396.1131,554.6451 L396.1131,562.7218 L398.5784,562.7218 L398.5784,564.88 L391.199,564.88 L391.199,562.7218 L393.6644,562.7218 L393.6644,554.6451 Z "
+         fill="#000000"
+         id="path79" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         font-style="italic"
+         lengthAdjust="spacing"
+         textLength="159.9609"
+         x="415.2713"
+         y="563.671"
+         id="text79">MetamorphosisStrategy</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="213.18"
+         x2="744.8236"
+         y1="574.38"
+         y2="574.38"
+         id="line79" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="213.18"
+         x2="744.8236"
+         y1="582.38"
+         y2="582.38"
+         id="line80" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g80">
+        <ellipse
+           cx="223.18"
+           cy="596.1241"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse80" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="419.1318"
+         x="232.18"
+         y="599.9152"
+         id="text80">applySeasonalChanges(planet : Planet, season : Season) : void</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g81">
+        <ellipse
+           cx="223.18"
+           cy="612.6124"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse81" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="507.6436"
+         x="232.18"
+         y="616.4034"
+         id="text81">applyExtractionChanges(planet : Planet, extractionIntensity : double) : void</text>
+    </g>
+    <!--class StandardMetamorphosisStrategy-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.metamorphosis.StandardMetamorphosisStrategy"
+       data-source-line="113"
+       id="ent0030">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="48"
+         style="stroke:#A80036;stroke-width:1;"
+         width="252.2402"
+         x="352.88"
+         y="782.79"
+         id="rect81" />
+      <ellipse
+         cx="367.88"
+         cy="798.79"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse82" />
+      <path
+         d="M370.3531,804.9331 Q369.7721,805.2319 369.1329,805.3813 Q368.4938,805.5307 367.7882,805.5307 Q365.2814,805.5307 363.9615,803.8789 Q362.6417,802.227 362.6417,799.1059 Q362.6417,795.9765 363.9615,794.3247 Q365.2814,792.6728 367.7882,792.6728 Q368.4938,792.6728 369.1412,792.8222 Q369.7887,792.9716 370.3531,793.2705 L370.3531,795.9931 Q369.7223,795.4121 369.1288,795.1423 Q368.5353,794.8725 367.9044,794.8725 Q366.5597,794.8725 365.8749,795.9392 Q365.1901,797.0058 365.1901,799.1059 Q365.1901,801.1977 365.8749,802.2644 Q366.5597,803.331 367.9044,803.331 Q368.5353,803.331 369.1288,803.0612 Q369.7223,802.7915 370.3531,802.2104 Z "
+         fill="#000000"
+         id="path82" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="220.2402"
+         x="381.88"
+         y="804.081"
+         id="text82">StandardMetamorphosisStrategy</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="353.88"
+         x2="604.1202"
+         y1="814.79"
+         y2="814.79"
+         id="line82" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="353.88"
+         x2="604.1202"
+         y1="822.79"
+         y2="822.79"
+         id="line83" />
+    </g>
+    <!--class MetamorphosisHandler-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.metamorphosis.MetamorphosisHandler"
+       data-source-line="116"
+       id="ent0032">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="97.4648"
+         style="stroke:#A80036;stroke-width:1;"
+         width="701.165"
+         x="128.42"
+         y="270.71"
+         id="rect83" />
+      <ellipse
+         cx="395.8829"
+         cy="286.71"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse83" />
+      <path
+         d="M398.356,292.8531 Q397.775,293.1519 397.1358,293.3013 Q396.4967,293.4507 395.7911,293.4507 Q393.2843,293.4507 391.9644,291.7989 Q390.6446,290.147 390.6446,287.0259 Q390.6446,283.8965 391.9644,282.2447 Q393.2843,280.5928 395.7911,280.5928 Q396.4967,280.5928 397.1441,280.7422 Q397.7916,280.8916 398.356,281.1905 L398.356,283.9131 Q397.7252,283.3321 397.1317,283.0623 Q396.5382,282.7925 395.9073,282.7925 Q394.5626,282.7925 393.8778,283.8592 Q393.1929,284.9258 393.1929,287.0259 Q393.1929,289.1177 393.8778,290.1844 Q394.5626,291.251 395.9073,291.251 Q396.5382,291.251 397.1317,290.9812 Q397.7252,290.7115 398.356,290.1304 Z "
+         fill="#000000"
+         id="path83" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="157.7393"
+         x="416.3829"
+         y="292.001"
+         id="text83">MetamorphosisHandler</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="129.42"
+         x2="828.585"
+         y1="302.71"
+         y2="302.71"
+         id="line84" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g84">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="136.42"
+           y="313.4541"
+           id="rect84" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="228.1631"
+         x="148.42"
+         y="320.2452"
+         id="text84">strategy : MetamorphosisStrategy</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="129.42"
+         x2="828.585"
+         y1="327.1983"
+         y2="327.1983"
+         id="line85" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g85">
+        <ellipse
+           cx="139.42"
+           cy="340.9424"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse85" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="419.1318"
+         x="148.42"
+         y="344.7334"
+         id="text85">applySeasonalChanges(planet : Planet, season : Season) : void</text>
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g86">
+        <ellipse
+           cx="139.42"
+           cy="357.4307"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse86" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="675.165"
+         x="148.42"
+         y="361.2217"
+         id="text86">applyExtractionChanges(planet : Planet, mineralExtraction : double, waterExtraction : double) : void</text>
+    </g>
+    <!--class RobotScenarioType-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.utils.RobotScenarioType"
+       data-source-line="124"
+       id="ent0034">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="212.8828"
+         style="stroke:#A80036;stroke-width:1;"
+         width="171.1543"
+         x="886.42"
+         y="213"
+         id="rect86" />
+      <ellipse
+         cx="905.4568"
+         cy="229"
+         fill="#EB937F"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse87" />
+      <path
+         d="M909.0711,235.5 L901.3513,235.5 L901.3513,223.1069 L909.0711,223.1069 L909.0711,225.2651 L903.8001,225.2651 L903.8001,227.938 L908.573,227.938 L908.573,230.0962 L903.8001,230.0962 L903.8001,233.3418 L909.0711,233.3418 Z "
+         fill="#000000"
+         id="path87" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="130.1836"
+         x="920.3539"
+         y="234.291"
+         id="text87">RobotScenarioType</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="887.42"
+         x2="1056.5743"
+         y1="245"
+         y2="245"
+         id="line87" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="39.1494"
+         x="892.42"
+         y="262.5352"
+         id="text88">NONE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="22.7158"
+         x="892.42"
+         y="279.0234"
+         id="text89">SEE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="39.6758"
+         x="892.42"
+         y="295.5117"
+         id="text90">MOVE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="121.3926"
+         x="892.42"
+         y="312"
+         id="text91">MOVE_AND_SCAN</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="146.0977"
+         x="892.42"
+         y="328.4883"
+         id="text92">MOVE_AND_HARVEST</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="111.2617"
+         x="892.42"
+         y="344.9766"
+         id="text93">MOVE_AND_PIPE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="118.1865"
+         x="892.42"
+         y="361.4648"
+         id="text94">MOVE_AND_MINE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="159.1543"
+         x="892.42"
+         y="377.9531"
+         id="text95">MOVE_AND_CULTIVATE</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="37.2354"
+         x="892.42"
+         y="394.4414"
+         id="text96">PUMP</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="59.8145"
+         x="892.42"
+         y="410.9297"
+         id="text97">VARIOUS</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="887.42"
+         x2="1056.5743"
+         y1="417.8828"
+         y2="417.8828"
+         id="line97" />
+    </g>
+    <!--class RobotScenarioManager-->
+    <g
+       class="entity"
+       data-qualified-name="fr.ensicaen.lv223.planet.utils.RobotScenarioManager"
+       data-source-line="137"
+       id="ent0035">
+      <rect
+         fill="#FEFECE"
+         filter="url(#f1jexgq9h947i7)"
+         height="80.9766"
+         style="stroke:#A80036;stroke-width:1;"
+         width="580.374"
+         x="1092.81"
+         y="278.96"
+         id="rect97" />
+      <ellipse
+         cx="1300.8105"
+         cy="294.96"
+         fill="#ADD1B2"
+         rx="11"
+         ry="11"
+         style="stroke:#A80036;stroke-width:1;"
+         id="ellipse97" />
+      <path
+         d="M1303.2836,301.1031 Q1302.7026,301.4019 1302.0634,301.5513 Q1301.4243,301.7007 1300.7187,301.7007 Q1298.2119,301.7007 1296.892,300.0489 Q1295.5722,298.397 1295.5722,295.2759 Q1295.5722,292.1465 1296.892,290.4947 Q1298.2119,288.8428 1300.7187,288.8428 Q1301.4243,288.8428 1302.0717,288.9922 Q1302.7192,289.1416 1303.2836,289.4405 L1303.2836,292.1631 Q1302.6528,291.5821 1302.0593,291.3123 Q1301.4658,291.0425 1300.8349,291.0425 Q1299.4902,291.0425 1298.8054,292.1092 Q1298.1205,293.1758 1298.1205,295.2759 Q1298.1205,297.3677 1298.8054,298.4344 Q1299.4902,299.501 1300.8349,299.501 Q1301.4658,299.501 1302.0593,299.2312 Q1302.6528,298.9615 1303.2836,298.3804 Z "
+         fill="#000000"
+         id="path97" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="155.873"
+         x="1321.3105"
+         y="300.251"
+         id="text98">RobotScenarioManager</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1093.81"
+         x2="1672.184"
+         y1="310.96"
+         y2="310.96"
+         id="line98" />
+      <g
+         data-visibility-modifier="PRIVATE_FIELD"
+         id="g98">
+        <rect
+           fill="none"
+           height="6"
+           style="stroke:#C82930;stroke-width:1;"
+           width="6"
+           x="1100.81"
+           y="321.7041"
+           id="rect98" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="137.8125"
+         x="1112.81"
+         y="328.4952"
+         id="text99">server : PlanetServer</text>
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1093.81"
+         x2="1672.184"
+         y1="335.4483"
+         y2="335.4483"
+         id="line99" />
+      <g
+         data-visibility-modifier="PUBLIC_METHOD"
+         id="g99">
+        <ellipse
+           cx="1103.81"
+           cy="349.1924"
+           fill="#84BE84"
+           rx="3"
+           ry="3"
+           style="stroke:#038048;stroke-width:1;"
+           id="ellipse99" />
+      </g>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="554.374"
+         x="1112.81"
+         y="352.9834"
+         id="text100">runScenario(scenarioType : RobotScenarioType, planet : Planet) : List&lt;RobotInfo&gt;</text>
+    </g>
+    <!--reverse link HealthState to GoodHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0018"
+       data-entity-2="ent0019"
+       data-link-type="extension"
+       id="lnk20">
+      <path
+         d="M2244.9526,861.4911 C2202.9226,911.6011 2143.76,982.13 2109.61,1022.83"
+         fill="none"
+         id="HealthState-backto-GoodHealthState"
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:7,7;" />
+      <polygon
+         fill="none"
+         points="2256.52,847.7,2240.3556,857.6353,2249.5497,865.3469,2256.52,847.7"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon100" />
+    </g>
+    <!--reverse link HealthState to MelancholyHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0018"
+       data-entity-2="ent0021"
+       data-link-type="extension"
+       id="lnk22">
+      <path
+         d="M2290,865.7 C2290,915.81 2290,982.13 2290,1022.83"
+         fill="none"
+         id="HealthState-backto-MelancholyHealthState"
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:7,7;" />
+      <polygon
+         fill="none"
+         points="2290,847.7,2284,865.7,2296,865.7,2290,847.7"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon101" />
+    </g>
+    <!--reverse link HealthState to CriticalHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0018"
+       data-entity-2="ent0023"
+       data-link-type="extension"
+       id="lnk24">
+      <path
+         d="M2336.2472,861.321 C2379.5372,911.431 2440.63,982.13 2475.8,1022.83"
+         fill="none"
+         id="HealthState-backto-CriticalHealthState"
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:7,7;" />
+      <polygon
+         fill="none"
+         points="2324.48,847.7,2331.7069,865.2434,2340.7876,857.3986,2324.48,847.7"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon102" />
+    </g>
+    <!--reverse link HealthState to UnstableHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0018"
+       data-entity-2="ent0025"
+       data-link-type="extension"
+       id="lnk26">
+      <path
+         d="M2392.9229,855.4786 C2454.6429,885.1486 2522.4,920.36 2592,965.5 C2618.9,982.95 2647.34,1005.87 2667.34,1022.83"
+         fill="none"
+         id="HealthState-backto-UnstableHealthState"
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:7,7;" />
+      <polygon
+         fill="none"
+         points="2376.7,847.68,2390.3233,860.8863,2395.5224,850.071,2376.7,847.68"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon103" />
+    </g>
+    <!--reverse link MetamorphosisStrategy to StandardMetamorphosisStrategy-->
+    <g
+       class="link"
+       data-entity-1="ent0029"
+       data-entity-2="ent0030"
+       data-link-type="extension"
+       id="lnk31">
+      <path
+         d="M479,641.8 C479,688.1 479,744.86 479,782.52"
+         fill="none"
+         id="MetamorphosisStrategy-backto-StandardMetamorphosisStrategy"
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:7,7;" />
+      <polygon
+         fill="none"
+         points="479,623.8,473,641.8,485,641.8,479,623.8"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon104" />
+    </g>
+    <!--link RobotScenarioManager to PlanetServer-->
+    <g
+       class="link"
+       data-entity-1="ent0035"
+       data-entity-2="ent0013"
+       data-link-type="dependency"
+       data-source-line="143"
+       id="lnk36">
+      <path
+         codeLine="143"
+         d="M1347.4,360.33 C1324.24,387.09 1293.98,423.58 1270,457.89 C1253.11,482.04 1239.232,505.0465 1226.002,528.4565"
+         fill="none"
+         id="RobotScenarioManager-to-PlanetServer"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="1223.05,533.68,1230.9604,527.8127,1225.51,529.327,1223.9957,523.8767,1223.05,533.68"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon105" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="28.5645"
+         x="1271"
+         y="471.4584"
+         id="text105">uses</text>
+    </g>
+    <!--link PlanetServer to RequestHandler-->
+    <g
+       class="link"
+       data-entity-1="ent0013"
+       data-entity-2="ent0010"
+       data-link-type="dependency"
+       data-source-line="144"
+       id="lnk37">
+      <path
+         codeLine="144"
+         d="M1153.37,631.73 C1141.63,646.01 1129.55,662.13 1120,678.08 C1101.51,708.98 1088.4638,741.854 1079.1938,768.464"
+         fill="none"
+         id="PlanetServer-to-RequestHandler"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="1077.22,774.13,1083.9581,766.9469,1078.8649,769.4083,1076.4034,764.3151,1077.22,774.13"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon106" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="129.1875"
+         x="1121"
+         y="691.6484"
+         id="text106">handles requests via</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="1138.6872"
+         y="652.2469"
+         id="text107">1</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="6.2651"
+         x="1072.6675"
+         y="763.8216"
+         id="text108">*</text>
+    </g>
+    <!--link PlanetServer to RequestType-->
+    <g
+       class="link"
+       data-entity-1="ent0013"
+       data-entity-2="ent0012"
+       data-link-type="dependency"
+       data-source-line="145"
+       id="lnk38">
+      <path
+         codeLine="145"
+         d="M1228.46,632.02 C1246.2,659.17 1265.548,688.7872 1285.928,719.9772"
+         fill="none"
+         id="PlanetServer-to-RequestType"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="1289.21,725,1287.6356,715.2778,1286.475,720.8143,1280.9385,719.6538,1289.21,725"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon108" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="87.5532"
+         x="1270.5"
+         y="691.6484"
+         id="text109">dispatches on</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="1224.1645"
+         y="652.2226"
+         id="text110">1</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="6.2651"
+         x="1278.0789"
+         y="714.3513"
+         id="text111">*</text>
+    </g>
+    <!--link Planet to HealthStateHandler-->
+    <g
+       class="link"
+       data-entity-1="ent0003"
+       data-entity-2="ent0027"
+       data-link-type="dependency"
+       data-source-line="146"
+       id="lnk39">
+      <path
+         codeLine="146"
+         d="M1970.27,401.37 C2021.83,444.71 2079.007,492.7694 2123.027,529.7694"
+         fill="none"
+         id="Planet-to-HealthStateHandler"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="2127.62,533.63,2123.3042,524.7771,2123.7925,530.4129,2118.1567,530.9012,2127.62,533.63"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon111" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="56.5386"
+         x="2058.36"
+         y="471.4584"
+         id="text112">manages</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="1970.2089"
+         y="421.6363"
+         id="text113">1</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="2111.0044"
+         y="523.2422"
+         id="text114">1</text>
+    </g>
+    <!--link Planet to SeasonHandler-->
+    <g
+       class="link"
+       data-entity-1="ent0003"
+       data-entity-2="ent0016"
+       data-link-type="dependency"
+       data-source-line="147"
+       id="lnk40">
+      <path
+         codeLine="147"
+         d="M1867.5,401.37 C1864.02,444.71 1860.3317,490.6494 1857.3517,527.6494"
+         fill="none"
+         id="Planet-to-SeasonHandler"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="1856.87,533.63,1861.5796,524.9802,1857.2714,528.6461,1853.6054,524.3379,1856.87,533.63"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon114" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="56.5386"
+         x="1863.87"
+         y="471.4584"
+         id="text115">manages</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="1858.6071"
+         y="421.6363"
+         id="text116">1</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="1848.8666"
+         y="523.2422"
+         id="text117">1</text>
+    </g>
+    <!--link Planet to Cell-->
+    <g
+       class="link"
+       data-entity-1="ent0003"
+       data-entity-2="ent0007"
+       data-link-type="dependency"
+       data-source-line="148"
+       id="lnk41">
+      <path
+         codeLine="148"
+         d="M1765.76,401.45 C1741.11,418.39 1714.62,435.47 1689,449.89 C1657.26,467.74 1644.06,462.33 1614,482.89 C1599.56,492.77 1589.7391,500.7656 1576.8591,513.1256"
+         fill="none"
+         id="Planet-to-Cell"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="1572.53,517.28,1581.7933,513.9346,1576.1376,513.818,1576.2541,508.1624,1572.53,517.28"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon117" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="53.2061"
+         x="1672.9"
+         y="471.4584"
+         id="text118">contains</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="1748.1239"
+         y="421.7232"
+         id="text119">1</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="6.2651"
+         x="1572.5089"
+         y="506.8721"
+         id="text120">*</text>
+    </g>
+    <!--link HealthStateHandler to HealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0027"
+       data-entity-2="ent0018"
+       data-link-type="dependency"
+       data-source-line="149"
+       id="lnk42">
+      <path
+         codeLine="149"
+         d="M2207.78,632.02 C2226.72,672.05 2250.7835,722.9166 2268.5535,760.4666"
+         fill="none"
+         id="HealthStateHandler-to-HealthState"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="2271.12,765.89,2270.8858,756.0439,2268.9812,761.3705,2263.6546,759.466,2271.12,765.89"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon120" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="34.6201"
+         x="2238.5"
+         y="691.6484"
+         id="text121">holds</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="2202.3188"
+         y="652.2226"
+         id="text122">1</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="6.2651"
+         x="2261.5186"
+         y="755.4681"
+         id="text123">*</text>
+    </g>
+    <!--link MetamorphosisHandler to MetamorphosisStrategy-->
+    <g
+       class="link"
+       data-entity-1="ent0032"
+       data-entity-2="ent0029"
+       data-link-type="dependency"
+       data-source-line="150"
+       id="lnk43">
+      <path
+         codeLine="150"
+         d="M479,368.39 C479,418.21 479,489.29 479,535.92"
+         fill="none"
+         id="MetamorphosisHandler-to-MetamorphosisStrategy"
+         style="stroke:#A80036;stroke-width:1;" />
+      <polygon
+         fill="#A80036"
+         points="479,541.92,483,532.92,479,536.92,475,532.92,479,541.92"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon123" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="52.7236"
+         x="480"
+         y="471.4584"
+         id="text124">employs</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="470.4526"
+         y="388.9181"
+         id="text125">1</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="8.2202"
+         x="470.3554"
+         y="531.4898"
+         id="text126">1</text>
+    </g>
+    <!--link RequestHandler to RequestContext-->
+    <g
+       class="link"
+       data-entity-1="ent0010"
+       data-entity-2="ent0011"
+       data-link-type="dependency"
+       data-source-line="151"
+       id="lnk44">
+      <path
+         codeLine="151"
+         d="M1067,839.45 C1067,871.37 1067,915.96 1067,959.1"
+         fill="none"
+         id="RequestHandler-to-RequestContext"
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:7,7;" />
+      <polygon
+         fill="#A80036"
+         points="1067,965.1,1071,956.1,1067,960.1,1063,956.1,1067,965.1"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon126" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="28.5645"
+         x="1068"
+         y="932.0684"
+         id="text127">uses</text>
+    </g>
+</g>
+</svg>

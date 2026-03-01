@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentStyleType="text/css"
+   data-diagram-type="SEQUENCE"
+   height="757px"
+   preserveAspectRatio="none"
+   style="width:1217px;height:757px;background:#FFFFFF;"
+   version="1.1"
+   viewBox="0 0 1217 757"
+   width="1217px"
+   zoomAndPan="magnify"
+   id="svg55"
+   sodipodi:docname="move-sequence-diagram.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview55"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.034346103"
+     inkscape:cx="611.42308"
+     inkscape:cy="378.5"
+     inkscape:window-width="944"
+     inkscape:window-height="245"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg55" />
+  <defs
+     id="defs1">
+    <filter
+       height="1.975"
+       id="fxzrp4qx98ls3"
+       width="2.46"
+       x="-0.53"
+       y="-0.3625">
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2"
+         id="feGaussianBlur1" />
+      <feColorMatrix
+         in="blurOut"
+         result="blurOut2"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         id="feColorMatrix1" />
+      <feOffset
+         dx="4"
+         dy="4"
+         in="blurOut2"
+         result="blurOut3"
+         id="feOffset1" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut3"
+         mode="normal"
+         id="feBlend1" />
+    </filter>
+  </defs>
+  <g
+     id="g55">
+    <g
+       id="g1">
+      <title
+         id="title1">RobotEnvironmentFacade</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="363.7266"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="225.2285"
+         y="178.4199"
+         id="rect1" />
+    </g>
+    <g
+       id="g2">
+      <title
+         id="title2">PlanetServerConnection</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="205.1738"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="582.7642"
+         y="207.7305"
+         id="rect2" />
+    </g>
+    <g
+       id="g3">
+      <title
+         id="title3">Planet Server</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="29.3105"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="840.0576"
+         y="119.7988"
+         id="rect3" />
+    </g>
+    <g
+       id="g4">
+      <title
+         id="title4">Planet Server</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="146.5527"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="840.0576"
+         y="237.041"
+         id="rect4" />
+    </g>
+    <g
+       id="g5">
+      <title
+         id="title5">Planet Server</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="29.3105"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="840.0576"
+         y="626.0781"
+         id="rect5" />
+    </g>
+    <g
+       id="g6">
+      <title
+         id="title6">MoveRequestHandler</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="87.9316"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="1018.1069"
+         y="266.3516"
+         id="rect6" />
+    </g>
+    <g
+       id="g7">
+      <title
+         id="title7">Planet Data</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="29.3105"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="1170.4482"
+         y="295.6621"
+         id="rect7" />
+    </g>
+    <g
+       class="participant-lifeline"
+       data-entity-uid="part1"
+       data-qualified-name="robot"
+       id="part1-lifeline">
+      <g
+         id="g8">
+        <title
+           id="title8">Robot</title>
+        <rect
+           fill="#000000"
+           fill-opacity="0.00000"
+           height="584.9004"
+           width="8"
+           x="24.0498"
+           y="88.4883"
+           id="rect8" />
+        <line
+           style="stroke:#A80036;stroke-width:1;stroke-dasharray:5,5;"
+           x1="28"
+           x2="28"
+           y1="88.4883"
+           y2="673.3887"
+           id="line8" />
+      </g>
+    </g>
+    <g
+       class="participant-lifeline"
+       data-entity-uid="part2"
+       data-qualified-name="facade"
+       id="part2-lifeline">
+      <g
+         id="g9">
+        <title
+           id="title9">RobotEnvironmentFacade</title>
+        <rect
+           fill="#000000"
+           fill-opacity="0.00000"
+           height="584.9004"
+           width="8"
+           x="226.2285"
+           y="88.4883"
+           id="rect9" />
+        <line
+           style="stroke:#A80036;stroke-width:1;stroke-dasharray:5,5;"
+           x1="230.1128"
+           x2="230.1128"
+           y1="88.4883"
+           y2="673.3887"
+           id="line9" />
+      </g>
+    </g>
+    <g
+       class="participant-lifeline"
+       data-entity-uid="part3"
+       data-qualified-name="connection"
+       id="part3-lifeline">
+      <g
+         id="g10">
+        <title
+           id="title10">PlanetServerConnection</title>
+        <rect
+           fill="#000000"
+           fill-opacity="0.00000"
+           height="584.9004"
+           width="8"
+           x="583.7642"
+           y="88.4883"
+           id="rect10" />
+        <line
+           style="stroke:#A80036;stroke-width:1;stroke-dasharray:5,5;"
+           x1="587.6196"
+           x2="587.6196"
+           y1="88.4883"
+           y2="673.3887"
+           id="line10" />
+      </g>
+    </g>
+    <g
+       class="participant-lifeline"
+       data-entity-uid="part4"
+       data-qualified-name="server"
+       id="part4-lifeline">
+      <g
+         id="g11">
+        <title
+           id="title11">Planet Server</title>
+        <rect
+           fill="#000000"
+           fill-opacity="0.00000"
+           height="584.9004"
+           width="8"
+           x="841.0576"
+           y="88.4883"
+           id="rect11" />
+        <line
+           style="stroke:#A80036;stroke-width:1;stroke-dasharray:5,5;"
+           x1="844.3008"
+           x2="844.3008"
+           y1="88.4883"
+           y2="673.3887"
+           id="line11" />
+      </g>
+    </g>
+    <g
+       class="participant-lifeline"
+       data-entity-uid="part5"
+       data-qualified-name="handler"
+       id="part5-lifeline">
+      <g
+         id="g12">
+        <title
+           id="title12">MoveRequestHandler</title>
+        <rect
+           fill="#000000"
+           fill-opacity="0.00000"
+           height="584.9004"
+           width="8"
+           x="1019.1069"
+           y="88.4883"
+           id="rect12" />
+        <line
+           style="stroke:#A80036;stroke-width:1;stroke-dasharray:5,5;"
+           x1="1022.5449"
+           x2="1022.5449"
+           y1="88.4883"
+           y2="673.3887"
+           id="line12" />
+      </g>
+    </g>
+    <g
+       class="participant-lifeline"
+       data-entity-uid="part6"
+       data-qualified-name="data"
+       id="part6-lifeline">
+      <g
+         id="g13">
+        <title
+           id="title13">Planet Data</title>
+        <rect
+           fill="#000000"
+           fill-opacity="0.00000"
+           height="584.9004"
+           width="8"
+           x="1171.4482"
+           y="88.4883"
+           id="rect13" />
+        <line
+           style="stroke:#A80036;stroke-width:1;stroke-dasharray:5,5;"
+           x1="1175.02"
+           x2="1175.02"
+           y1="88.4883"
+           y2="673.3887"
+           id="line13" />
+      </g>
+    </g>
+    <g
+       class="participant participant-head"
+       data-entity-uid="part1"
+       data-qualified-name="robot"
+       id="part1-head">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="40.0996"
+         x="5"
+         y="85.5352"
+         id="text13">Robot</text>
+      <ellipse
+         cx="28.0498"
+         cy="15"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="8"
+         ry="8"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse13" />
+      <path
+         d="M28.0498,23 L28.0498,50 M15.0498,31 L41.0498,31 M28.0498,50 L15.0498,65 M28.0498,50 L41.0498,65"
+         fill="none"
+         filter="url(#fxzrp4qx98ls3)"
+         style="stroke:#A80036;stroke-width:2;"
+         id="path13" />
+    </g>
+    <g
+       class="participant participant-tail"
+       data-entity-uid="part1"
+       data-qualified-name="robot"
+       id="part1-tail">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="40.0996"
+         x="5"
+         y="685.9238"
+         id="text14">Robot</text>
+      <ellipse
+         cx="28.0498"
+         cy="698.877"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="8"
+         ry="8"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse14" />
+      <path
+         d="M28.0498,706.877 L28.0498,733.877 M15.0498,714.877 L41.0498,714.877 M28.0498,733.877 L15.0498,748.877 M28.0498,733.877 L41.0498,748.877"
+         fill="none"
+         filter="url(#fxzrp4qx98ls3)"
+         style="stroke:#A80036;stroke-width:2;"
+         id="path14" />
+    </g>
+    <g
+       class="participant participant-head"
+       data-entity-uid="part2"
+       data-qualified-name="facade"
+       id="part2-head">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="172.2314"
+         x="141.1128"
+         y="85.5352"
+         id="text15">RobotEnvironmentFacade</text>
+      <ellipse
+         cx="230.2285"
+         cy="56"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse15" />
+      <polygon
+         fill="#A80036"
+         points="226.2285,44,232.2285,39,230.2285,44,232.2285,49,226.2285,44"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon15" />
+    </g>
+    <g
+       class="participant participant-tail"
+       data-entity-uid="part2"
+       data-qualified-name="facade"
+       id="part2-tail">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="172.2314"
+         x="141.1128"
+         y="685.9238"
+         id="text16">RobotEnvironmentFacade</text>
+      <ellipse
+         cx="230.2285"
+         cy="704.877"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse16" />
+      <polygon
+         fill="#A80036"
+         points="226.2285,692.877,232.2285,687.877,230.2285,692.877,232.2285,697.877,226.2285,692.877"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon16" />
+    </g>
+    <g
+       class="participant participant-head"
+       data-entity-uid="part3"
+       data-qualified-name="connection"
+       id="part3-head">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="160.2891"
+         x="504.6196"
+         y="85.5352"
+         id="text17">PlanetServerConnection</text>
+      <ellipse
+         cx="587.7642"
+         cy="56"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse17" />
+      <polygon
+         fill="#A80036"
+         points="583.7642,44,589.7642,39,587.7642,44,589.7642,49,583.7642,44"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon17" />
+    </g>
+    <g
+       class="participant participant-tail"
+       data-entity-uid="part3"
+       data-qualified-name="connection"
+       id="part3-tail">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="160.2891"
+         x="504.6196"
+         y="685.9238"
+         id="text18">PlanetServerConnection</text>
+      <ellipse
+         cx="587.7642"
+         cy="704.877"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse18" />
+      <polygon
+         fill="#A80036"
+         points="583.7642,692.877,589.7642,687.877,587.7642,692.877,589.7642,697.877,583.7642,692.877"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon18" />
+    </g>
+    <g
+       class="participant participant-head"
+       data-entity-uid="part4"
+       data-qualified-name="server"
+       id="part4-head">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="87.5137"
+         x="798.3008"
+         y="85.5352"
+         id="text19">Planet Server</text>
+      <ellipse
+         cx="845.0576"
+         cy="56"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse19" />
+      <line
+         style="stroke:#A80036;stroke-width:2;"
+         x1="833.0576"
+         x2="857.0576"
+         y1="70"
+         y2="70"
+         id="line19" />
+    </g>
+    <g
+       class="participant participant-tail"
+       data-entity-uid="part4"
+       data-qualified-name="server"
+       id="part4-tail">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="87.5137"
+         x="798.3008"
+         y="685.9238"
+         id="text20">Planet Server</text>
+      <ellipse
+         cx="845.0576"
+         cy="704.877"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse20" />
+      <line
+         style="stroke:#A80036;stroke-width:2;"
+         x1="833.0576"
+         x2="857.0576"
+         y1="718.877"
+         y2="718.877"
+         id="line20" />
+    </g>
+    <g
+       class="participant participant-head"
+       data-entity-uid="part5"
+       data-qualified-name="handler"
+       id="part5-head">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="143.124"
+         x="948.5449"
+         y="85.5352"
+         id="text21">MoveRequestHandler</text>
+      <ellipse
+         cx="1023.1069"
+         cy="56"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse21" />
+      <polygon
+         fill="#A80036"
+         points="1019.1069,44,1025.1069,39,1023.1069,44,1025.1069,49,1019.1069,44"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon21" />
+    </g>
+    <g
+       class="participant participant-tail"
+       data-entity-uid="part5"
+       data-qualified-name="handler"
+       id="part5-tail">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="143.124"
+         x="948.5449"
+         y="685.9238"
+         id="text22">MoveRequestHandler</text>
+      <ellipse
+         cx="1023.1069"
+         cy="704.877"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         rx="12"
+         ry="12"
+         style="stroke:#A80036;stroke-width:2;"
+         id="ellipse22" />
+      <polygon
+         fill="#A80036"
+         points="1019.1069,692.877,1025.1069,687.877,1023.1069,692.877,1025.1069,697.877,1019.1069,692.877"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon22" />
+    </g>
+    <g
+       class="participant participant-head"
+       data-entity-uid="part6"
+       data-qualified-name="data"
+       id="part6-head">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="76.8564"
+         x="1134.02"
+         y="85.5352"
+         id="text23">Planet Data</text>
+      <path
+         d="M1157.4482,36 C1157.4482,26 1175.4482,26 1175.4482,26 C1175.4482,26 1193.4482,26 1193.4482,36 L1193.4482,62 C1193.4482,72 1175.4482,72 1175.4482,72 C1175.4482,72 1157.4482,72 1157.4482,62 L1157.4482,36"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         style="stroke:#A80036;stroke-width:1;"
+         id="path23" />
+      <path
+         d="M1157.4482,36 C1157.4482,46 1175.4482,46 1175.4482,46 C1175.4482,46 1193.4482,46 1193.4482,36"
+         fill="none"
+         style="stroke:#A80036;stroke-width:1;"
+         id="path24" />
+    </g>
+    <g
+       class="participant participant-tail"
+       data-entity-uid="part6"
+       data-qualified-name="data"
+       id="part6-tail">
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="76.8564"
+         x="1134.02"
+         y="685.9238"
+         id="text24">Planet Data</text>
+      <path
+         d="M1157.4482,698.877 C1157.4482,688.877 1175.4482,688.877 1175.4482,688.877 C1175.4482,688.877 1193.4482,688.877 1193.4482,698.877 L1193.4482,724.877 C1193.4482,734.877 1175.4482,734.877 1175.4482,734.877 C1175.4482,734.877 1157.4482,734.877 1157.4482,724.877 L1157.4482,698.877"
+         fill="#FEFECE"
+         filter="url(#fxzrp4qx98ls3)"
+         style="stroke:#A80036;stroke-width:1;"
+         id="path25" />
+      <path
+         d="M1157.4482,698.877 C1157.4482,708.877 1175.4482,708.877 1175.4482,708.877 C1175.4482,708.877 1193.4482,708.877 1193.4482,698.877"
+         fill="none"
+         style="stroke:#A80036;stroke-width:1;"
+         id="path26" />
+    </g>
+    <g
+       id="g26">
+      <title
+         id="title26">RobotEnvironmentFacade</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="363.7266"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="225.2285"
+         y="178.4199"
+         id="rect26" />
+    </g>
+    <g
+       id="g27">
+      <title
+         id="title27">PlanetServerConnection</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="205.1738"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="582.7642"
+         y="207.7305"
+         id="rect27" />
+    </g>
+    <g
+       id="g28">
+      <title
+         id="title28">Planet Server</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="29.3105"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="840.0576"
+         y="119.7988"
+         id="rect28" />
+    </g>
+    <g
+       id="g29">
+      <title
+         id="title29">Planet Server</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="146.5527"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="840.0576"
+         y="237.041"
+         id="rect29" />
+    </g>
+    <g
+       id="g30">
+      <title
+         id="title30">Planet Server</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="29.3105"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="840.0576"
+         y="626.0781"
+         id="rect30" />
+    </g>
+    <g
+       id="g31">
+      <title
+         id="title31">MoveRequestHandler</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="87.9316"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="1018.1069"
+         y="266.3516"
+         id="rect31" />
+    </g>
+    <g
+       id="g32">
+      <title
+         id="title32">Planet Data</title>
+      <rect
+         fill="#FFFFFF"
+         filter="url(#fxzrp4qx98ls3)"
+         height="29.3105"
+         style="stroke:#A80036;stroke-width:1;"
+         width="10"
+         x="1170.4482"
+         y="295.6621"
+         id="rect32" />
+    </g>
+    <g
+       class="message"
+       data-entity-1="part3"
+       data-entity-2="part4"
+       id="msg1">
+      <polygon
+         fill="#A80036"
+         points="828.0576,115.7988,838.0576,119.7988,828.0576,123.7988,832.0576,119.7988"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon32" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="587.7642"
+         x2="834.0576"
+         y1="119.7988"
+         y2="119.7988"
+         id="line32" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="57.9985"
+         x="594.7642"
+         y="115.0566"
+         id="text32">connect()</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part4"
+       data-entity-2="part3"
+       id="msg2">
+      <polygon
+         fill="#A80036"
+         points="598.7642,145.1094,588.7642,149.1094,598.7642,153.1094,594.7642,149.1094"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon33" />
+      <line
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:2,2;"
+         x1="592.7642"
+         x2="844.0576"
+         y1="149.1094"
+         y2="149.1094"
+         id="line33" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="149.3413"
+         x="604.7642"
+         y="144.3672"
+         id="text33">connectionEstablished()</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part1"
+       data-entity-2="part2"
+       id="msg3">
+      <polygon
+         fill="#A80036"
+         points="213.2285,174.4199,223.2285,178.4199,213.2285,182.4199,217.2285,178.4199"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon34" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="28.0498"
+         x2="219.2285"
+         y1="178.4199"
+         y2="178.4199"
+         id="line34" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="178.1787"
+         x="35.0498"
+         y="173.6777"
+         id="text34">moveRobot(robot, direction)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part2"
+       data-entity-2="part3"
+       id="msg4">
+      <polygon
+         fill="#A80036"
+         points="570.7642,203.7305,580.7642,207.7305,570.7642,211.7305,574.7642,207.7305"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon35" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="235.2285"
+         x2="576.7642"
+         y1="207.7305"
+         y2="207.7305"
+         id="line35" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="328.5356"
+         x="242.2285"
+         y="202.9883"
+         id="text35">sendRequest(JSON move request {x, y, newX, newY})</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part3"
+       data-entity-2="part4"
+       id="msg5">
+      <polygon
+         fill="#A80036"
+         points="828.0576,233.041,838.0576,237.041,828.0576,241.041,832.0576,237.041"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon36" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="592.7642"
+         x2="834.0576"
+         y1="237.041"
+         y2="237.041"
+         id="line36" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="228.2935"
+         x="599.7642"
+         y="232.2988"
+         id="text36">forwardRequest(JSON move request)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part4"
+       data-entity-2="part5"
+       id="msg6">
+      <polygon
+         fill="#A80036"
+         points="1006.1069,262.3516,1016.1069,266.3516,1006.1069,270.3516,1010.1069,266.3516"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon37" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="850.0576"
+         x2="1012.1069"
+         y1="266.3516"
+         y2="266.3516"
+         id="line37" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="149.0493"
+         x="857.0576"
+         y="261.6094"
+         id="text37">handleRequest(context)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part5"
+       data-entity-2="part6"
+       id="msg7">
+      <polygon
+         fill="#A80036"
+         points="1158.4482,291.6621,1168.4482,295.6621,1158.4482,299.6621,1162.4482,295.6621"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon38" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="1028.1069"
+         x2="1164.4482"
+         y1="295.6621"
+         y2="295.6621"
+         id="line38" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="123.3413"
+         x="1035.1069"
+         y="290.9199"
+         id="text38">queryEnvironment()</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part6"
+       data-entity-2="part5"
+       id="msg8">
+      <polygon
+         fill="#A80036"
+         points="1039.1069,320.9727,1029.1069,324.9727,1039.1069,328.9727,1035.1069,324.9727"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon39" />
+      <line
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:2,2;"
+         x1="1033.1069"
+         x2="1174.4482"
+         y1="324.9727"
+         y2="324.9727"
+         id="line39" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="108.437"
+         x="1045.1069"
+         y="320.2305"
+         id="text39">environmentData</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part5"
+       data-entity-2="part4"
+       id="msg9">
+      <polygon
+         fill="#A80036"
+         points="861.0576,350.2832,851.0576,354.2832,861.0576,358.2832,857.0576,354.2832"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon40" />
+      <line
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:2,2;"
+         x1="855.0576"
+         x2="1022.1069"
+         y1="354.2832"
+         y2="354.2832"
+         id="line40" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="116.1875"
+         x="867.0576"
+         y="349.541"
+         id="text40">moveResult (JSON)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part4"
+       data-entity-2="part3"
+       id="msg10">
+      <polygon
+         fill="#A80036"
+         points="603.7642,379.5938,593.7642,383.5938,603.7642,387.5938,599.7642,383.5938"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon41" />
+      <line
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:2,2;"
+         x1="597.7642"
+         x2="844.0576"
+         y1="383.5938"
+         y2="383.5938"
+         id="line41" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="116.1875"
+         x="609.7642"
+         y="378.8516"
+         id="text41">moveResult (JSON)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part3"
+       data-entity-2="part2"
+       id="msg11">
+      <polygon
+         fill="#A80036"
+         points="246.2285,408.9043,236.2285,412.9043,246.2285,416.9043,242.2285,412.9043"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon42" />
+      <line
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:2,2;"
+         x1="240.2285"
+         x2="586.7642"
+         y1="412.9043"
+         y2="412.9043"
+         id="line42" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="100.6104"
+         x="252.2285"
+         y="408.1621"
+         id="text42">response (JSON)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part2"
+       data-entity-2="part2"
+       id="msg12">
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="235.2285"
+         x2="277.2285"
+         y1="442.2148"
+         y2="442.2148"
+         id="line43" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="277.2285"
+         x2="277.2285"
+         y1="442.2148"
+         y2="455.2148"
+         id="line44" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="236.2285"
+         x2="277.2285"
+         y1="455.2148"
+         y2="455.2148"
+         id="line45" />
+      <polygon
+         fill="#A80036"
+         points="246.2285,451.2148,236.2285,455.2148,246.2285,459.2148,242.2285,455.2148"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon45" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="247.8823"
+         x="242.2285"
+         y="437.4727"
+         id="text45">dispatch(response, robot, targetGlobal)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part2"
+       data-entity-2="part2"
+       id="msg13">
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="235.2285"
+         x2="277.2285"
+         y1="499.8359"
+         y2="499.8359"
+         id="line46" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="277.2285"
+         x2="277.2285"
+         y1="499.8359"
+         y2="512.8359"
+         id="line47" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="236.2285"
+         x2="277.2285"
+         y1="512.8359"
+         y2="512.8359"
+         id="line48" />
+      <polygon
+         fill="#A80036"
+         points="246.2285,508.8359,236.2285,512.8359,246.2285,516.8359,242.2285,512.8359"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon48" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="213.4399"
+         x="242.2285"
+         y="479.7832"
+         id="text48">processServerResponse(response)</text>
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="177.2837"
+         x="242.2285"
+         y="495.0938"
+         id="text49">[notify injured robots if any]</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part2"
+       data-entity-2="part1"
+       id="msg14">
+      <polygon
+         fill="#A80036"
+         points="39.0498,538.1465,29.0498,542.1465,39.0498,546.1465,35.0498,542.1465"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon49" />
+      <line
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:2,2;"
+         x1="33.0498"
+         x2="229.2285"
+         y1="542.1465"
+         y2="542.1465"
+         id="line49" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="153.1689"
+         x="45.0498"
+         y="537.4043"
+         id="text50">(robot location updated)</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part4"
+       data-entity-2="part1"
+       id="msg15">
+      <polygon
+         fill="#A80036"
+         points="39.0498,580.1123,29.0498,584.1123,39.0498,588.1123,35.0498,584.1123"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon50" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="33.0498"
+         x2="844.0576"
+         y1="584.1123"
+         y2="584.1123"
+         id="line50" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="291.0337"
+         x="45.0498"
+         y="579.3701"
+         id="text51">pushGridState (4-byte length + JSON payload)</text>
+    </g>
+    <path
+       d="M850,555.1465 L850,595.1465 L1037,595.1465 L1037,565.1465 L1027,555.1465 L850,555.1465"
+       fill="#FBFB77"
+       filter="url(#fxzrp4qx98ls3)"
+       style="stroke:#A80036;stroke-width:1;"
+       id="path51" />
+    <path
+       d="M1027,555.1465 L1027,565.1465 L1037,565.1465 L1027,555.1465"
+       fill="#FBFB77"
+       style="stroke:#A80036;stroke-width:1;"
+       id="path52" />
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13"
+       lengthAdjust="spacing"
+       textLength="166.5625"
+       x="856"
+       y="572.7148"
+       id="text52">GUI receives pushed state;</text>
+    <text
+       fill="#000000"
+       font-family="sans-serif"
+       font-size="13"
+       lengthAdjust="spacing"
+       textLength="145.8628"
+       x="856"
+       y="588.0254"
+       id="text53">no pull request needed</text>
+    <g
+       class="message"
+       data-entity-1="part3"
+       data-entity-2="part4"
+       id="msg17">
+      <polygon
+         fill="#A80036"
+         points="828.0576,622.0781,838.0576,626.0781,828.0576,630.0781,832.0576,626.0781"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon53" />
+      <line
+         style="stroke:#A80036;stroke-width:1;"
+         x1="587.7642"
+         x2="834.0576"
+         y1="626.0781"
+         y2="626.0781"
+         id="line53" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="76.5654"
+         x="594.7642"
+         y="621.3359"
+         id="text54">disconnect()</text>
+    </g>
+    <g
+       class="message"
+       data-entity-1="part4"
+       data-entity-2="part3"
+       id="msg18">
+      <polygon
+         fill="#A80036"
+         points="598.7642,651.3887,588.7642,655.3887,598.7642,659.3887,594.7642,655.3887"
+         style="stroke:#A80036;stroke-width:1;"
+         id="polygon54" />
+      <line
+         style="stroke:#A80036;stroke-width:1;stroke-dasharray:2,2;"
+         x1="592.7642"
+         x2="844.0576"
+         y1="655.3887"
+         y2="655.3887"
+         id="line54" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="146.6372"
+         x="604.7642"
+         y="650.6465"
+         id="text55">confirmDisconnection()</text>
+    </g>
+</g>
+</svg>

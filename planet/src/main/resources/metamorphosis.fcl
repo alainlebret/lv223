@@ -1,0 +1,109 @@
+FUNCTION_BLOCK Rules	
+
+// Definition of inputs for our fuzzy engine
+VAR_INPUT
+    mineralExtraction : REAL; // Mineral extraction (0-100)
+    waterPumping : REAL;      // Water pumping (0-100)
+    planetHealth : REAL;      // Planet health (0-100)
+END_VAR
+
+// Definition of output for our fuzzy engine
+VAR_OUTPUT
+    metamorphosisLevel : REAL;   // metamorphosis level for the planet (0-100)
+END_VAR
+
+// Definition of fuzzy terms for the mineral extraction
+FUZZIFY mineralExtraction
+    TERM small := (1,1) (10,1) (20,0);          // Small mineral extraction
+    TERM medium := (10,0) (20,1) (40,1) (60,0); // Medium mineral extraction
+    TERM large := (40,0) (60,1) (100,1);        // Large mineral extraction
+END_FUZZIFY
+
+// Definition of fuzzy terms for water pumping
+FUZZIFY waterPumping
+    TERM insignificant := (1,1) (8, 1) (14,0);  // Insignificant water pumping
+    TERM small := (8,0) (14,1) (36,1) (44,0);   // Small water pumping
+    TERM medium := (36,0) (44,1) (66,1) (72,0); // Medium water pumping
+    TERM large := (66,0) (72,1) (100,1);        // Large water pumping
+END_FUZZIFY
+
+// Definition of fuzzy terms for the planet health state
+FUZZIFY planetHealth
+    TERM good := (80,1) (100,1);          // Good health state
+    TERM melancholy := (40,1) (79,1);     // Melancholy health state
+    TERM unstable := (20,1) (39,1);       // Unstable health state
+    TERM critical := (1,1) (19,1);        // Critical health state
+END_FUZZIFY
+
+// Definition of fuzzy terms for the planet metamorphosis level
+DEFUZZIFY metamorphosisLevel
+    TERM limited := (0,1) (1,1) (5,0);          // Limited metamorphosis level
+    TERM small := (1,0) (5,1) (10,1) (15,0);    // Small metamorphosis level
+    TERM medium := (10,0) (15,1) (50,1) (60,0); // Medium metamorphosis level
+    TERM large := (50,0) (60,1) (75,1) (85,0);  // Large metamorphosis level
+    TERM important := (75,0) (85,1) (100,1);    // Important metamorphosis level
+    METHOD : COG;  // Using the center of gravity to defuzzify
+    DEFAULT := 0;  // Default value
+END_DEFUZZIFY
+
+// Rules block for the fuzzy logic
+RULEBLOCK No1
+	AND : MIN;   // Using 'min' for the AND operator ('max' for the OR operator)
+	ACT : MIN;   // Using 'min' as the activation method
+	ACCU : MAX;  // Using 'max' as the accumulation method
+
+	RULE 1 : IF mineralExtraction IS small AND waterPumping IS insignificant AND planetHealth IS good THEN metamorphosisLevel IS limited;
+	RULE 2 : IF mineralExtraction IS small AND waterPumping IS small AND planetHealth IS good THEN metamorphosisLevel IS small;
+	RULE 3 : IF mineralExtraction IS small AND waterPumping IS medium AND planetHealth IS good THEN metamorphosisLevel IS small;
+    RULE 4 : IF mineralExtraction IS small AND waterPumping IS large AND planetHealth IS good THEN metamorphosisLevel IS medium;
+    RULE 5 : IF mineralExtraction IS medium AND waterPumping IS insignificant AND planetHealth IS good THEN metamorphosisLevel IS medium;
+    RULE 6 : IF mineralExtraction IS medium AND waterPumping IS small AND planetHealth IS good THEN metamorphosisLevel IS medium;
+    RULE 7 : IF mineralExtraction IS medium AND waterPumping IS medium AND planetHealth IS good THEN metamorphosisLevel IS medium;
+    RULE 8 : IF mineralExtraction IS medium AND waterPumping IS large AND planetHealth IS good THEN metamorphosisLevel IS medium;
+    RULE 9 : IF mineralExtraction IS large AND waterPumping IS insignificant AND planetHealth IS good THEN metamorphosisLevel IS large;
+    RULE 10 : IF mineralExtraction IS large AND waterPumping IS small AND planetHealth IS good THEN metamorphosisLevel IS large;
+    RULE 11 : IF mineralExtraction IS large AND waterPumping IS medium AND planetHealth IS good THEN metamorphosisLevel IS important;
+    RULE 12 : IF mineralExtraction IS large AND waterPumping IS large AND planetHealth IS good THEN metamorphosisLevel IS important;
+
+    RULE 13 : IF mineralExtraction IS small AND waterPumping IS insignificant AND planetHealth IS melancholy THEN metamorphosisLevel IS small;
+    RULE 14 : IF mineralExtraction IS small AND waterPumping IS small AND planetHealth IS melancholy THEN metamorphosisLevel IS medium;
+    RULE 15 : IF mineralExtraction IS small AND waterPumping IS medium AND planetHealth IS melancholy THEN metamorphosisLevel IS medium;
+    RULE 16 : IF mineralExtraction IS small AND waterPumping IS large AND planetHealth IS melancholy THEN metamorphosisLevel IS large;
+    RULE 17 : IF mineralExtraction IS medium AND waterPumping IS insignificant AND planetHealth IS melancholy THEN metamorphosisLevel IS large;
+    RULE 18 : IF mineralExtraction IS medium AND waterPumping IS small AND planetHealth IS melancholy THEN metamorphosisLevel IS large;
+    RULE 19 : IF mineralExtraction IS medium AND waterPumping IS medium AND planetHealth IS melancholy THEN metamorphosisLevel IS large;
+    RULE 20 : IF mineralExtraction IS medium AND waterPumping IS large AND planetHealth IS melancholy THEN metamorphosisLevel IS large;
+    RULE 21 : IF mineralExtraction IS large AND waterPumping IS insignificant AND planetHealth IS melancholy THEN metamorphosisLevel IS important;
+    RULE 22 : IF mineralExtraction IS large AND waterPumping IS small AND planetHealth IS melancholy THEN metamorphosisLevel IS important;
+    RULE 23 : IF mineralExtraction IS large AND waterPumping IS medium AND planetHealth IS melancholy THEN metamorphosisLevel IS important;
+    RULE 24 : IF mineralExtraction IS large AND waterPumping IS large AND planetHealth IS melancholy THEN metamorphosisLevel IS important;
+
+    RULE 25 : IF mineralExtraction IS small AND waterPumping IS insignificant AND planetHealth IS unstable THEN metamorphosisLevel IS medium;
+    RULE 26 : IF mineralExtraction IS small AND waterPumping IS small AND planetHealth IS unstable THEN metamorphosisLevel IS large;
+    RULE 27 : IF mineralExtraction IS small AND waterPumping IS medium AND planetHealth IS unstable THEN metamorphosisLevel IS large;
+    RULE 28 : IF mineralExtraction IS small AND waterPumping IS large AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 29 : IF mineralExtraction IS medium AND waterPumping IS insignificant AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 30 : IF mineralExtraction IS medium AND waterPumping IS small AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 31 : IF mineralExtraction IS medium AND waterPumping IS medium AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 32 : IF mineralExtraction IS medium AND waterPumping IS large AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 33 : IF mineralExtraction IS large AND waterPumping IS insignificant AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 34 : IF mineralExtraction IS large AND waterPumping IS small AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 35 : IF mineralExtraction IS large AND waterPumping IS medium AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+    RULE 36 : IF mineralExtraction IS large AND waterPumping IS large AND planetHealth IS unstable THEN metamorphosisLevel IS important;
+
+    RULE 37 : IF mineralExtraction IS small AND waterPumping IS insignificant AND planetHealth IS critical THEN metamorphosisLevel IS large;
+    RULE 38 : IF mineralExtraction IS small AND waterPumping IS small AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 39 : IF mineralExtraction IS small AND waterPumping IS medium AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 40 : IF mineralExtraction IS small AND waterPumping IS large AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 41 : IF mineralExtraction IS medium AND waterPumping IS insignificant AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 42 : IF mineralExtraction IS medium AND waterPumping IS small AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 43 : IF mineralExtraction IS medium AND waterPumping IS medium AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 44 : IF mineralExtraction IS medium AND waterPumping IS large AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 45 : IF mineralExtraction IS large AND waterPumping IS insignificant AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 46 : IF mineralExtraction IS large AND waterPumping IS small AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 47 : IF mineralExtraction IS large AND waterPumping IS medium AND planetHealth IS critical THEN metamorphosisLevel IS important;
+    RULE 48 : IF mineralExtraction IS large AND waterPumping IS large AND planetHealth IS critical THEN metamorphosisLevel IS important;
+
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK

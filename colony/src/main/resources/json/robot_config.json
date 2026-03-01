@@ -1,0 +1,12 @@
+{
+   "mobilityDamageThreshold": 80,
+   "sensorFunctionalityThreshold": 50,
+   "defaultHarvestAmount": 10,
+   "defaultMineAmount": 10,
+   "defaultPumpAmount": 10,
+   "defaultMoveDelay": 1000,
+   "minEnergyThreshold": 20,
+   "repairReturnDirection": "NONE",
+   "baseX": 10,
+   "baseY": 10
+ }

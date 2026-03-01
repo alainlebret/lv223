@@ -1,0 +1,33 @@
+@startuml planet-use-cases-diagram
+
+skin rose
+
+left to right direction
+actor "Client (Robot Colony Agent)" as Client
+actor "GUI Client" as GUI
+actor "Planet Server" as Server
+
+package "Planet Simulation" {
+    usecase "Connect to server" as UC1
+    usecase "Send action requests\n(scan, move, mine, harvest,\ncultivate, pipe, pump)" as UC2
+    usecase "Send endOfTurn" as UC3
+    usecase "Receive and process responses" as UC4
+    usecase "Perform seasonal changes" as UC5
+    usecase "Update planet health state" as UC6
+    usecase "Apply metamorphosis strategies" as UC7
+    usecase "Run demonstration scenarios" as UC8
+    usecase "Visualize planet state" as UC9
+}
+
+Client --> UC1
+Client --> UC2
+Client --> UC3
+Client --> UC4
+GUI --> UC1
+GUI --> UC9
+Server --> UC5
+Server --> UC6
+Server --> UC7
+Server --> UC8
+
+@enduml

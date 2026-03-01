@@ -1,0 +1,55 @@
+@startuml move-sequence-diagram-simplified
+skin rose
+
+actor "Robot" as R
+participant "RobotEnvironmentFacade" as F
+participant "ActionRequestFactory" as ARF
+participant "PlanetServerConnection" as PSC
+participant "PlanetServer" as PS
+participant "ResponseDispatcher" as RD
+participant "ActionResponseHandler" as ARH
+participant "MoveResponseHandler" as MRH
+
+' --- Robot initiates a move operation ---
+R -> F: moveRobot(robot, direction)
+activate R
+activate F
+
+' --- Facade delegates request building ---
+F -> ARF: createActionRequest("move", robotId, robotType, {x, y, newX, newY})
+ARF --> F: JSON move request
+
+' --- Facade sends the move request ---
+F -> PSC: sendRequest(JSON move request)
+activate PSC
+
+' --- PlanetServerConnection forwards request ---
+PSC -> PS: forwardRequest(JSON move request)
+activate PS
+
+' --- PlanetServer processes move request ---
+PS -> PS: processMove() [update simulation]
+PS --> PSC: JSON response (move result)
+deactivate PS
+
+' --- Response returns to Facade ---
+PSC --> F: JSON response
+deactivate PSC
+
+' --- Facade processes the response ---
+F -> ARH: parseResponse(JSON response)
+ARH --> F: ActionResponse object
+F -> RD: dispatch(ActionResponse, robot, targetGlobal)
+activate RD
+RD -> MRH: handleResponse(ActionResponse, robot, targetGlobal)
+MRH --> RD: (robot location updated)
+deactivate RD
+
+' --- Facade checks for injury notifications ---
+F -> F: processServerResponse(responseJson)
+note right : notifies injured robots\nvia robot.update(INJURED)
+deactivate F
+
+deactivate R
+
+@enduml

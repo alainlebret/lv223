@@ -1,0 +1,13 @@
+@startuml planet-state-diagram
+[*] --> GoodHealthState
+GoodHealthState --> MelancholyHealthState : Autumn/Winter
+GoodHealthState --> UnstableHealthState : extractionEvents > MediumThreshold
+GoodHealthState --> CriticalHealthState : extractionEvents >= HighThreshold
+MelancholyHealthState --> GoodHealthState : Spring/Summer
+MelancholyHealthState --> CriticalHealthState : worseningConditions
+UnstableHealthState --> CriticalHealthState : shouldTransitionToCritical()
+UnstableHealthState --> MelancholyHealthState : shouldTransitionToMelancholy()
+UnstableHealthState --> GoodHealthState : improvingConditions
+CriticalHealthState --> UnstableHealthState : shouldTransitionToUnstable()
+CriticalHealthState --> [*] : isPlanetDead()
+@enduml

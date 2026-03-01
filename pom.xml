@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.ensicaen.lv223</groupId>
+    <artifactId>lv223-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>LV223 Exploration Project</name>
+    <modules>
+        <module>planet</module>
+        <module>colony</module>
+    </modules>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <jackson.version>2.16.0</jackson.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>project-local-repo</id>
+            <url>file://${project.basedir}/lib-local</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- JUnit 5 -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.1</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Jackson JSON Processor -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.16.0</version>
+        </dependency>
+        <!-- jFuzzyLogic Engine -->
+        <dependency>
+           <groupId>net.sf.jfuzzylogic</groupId>
+           <artifactId>jFuzzyLogic</artifactId>
+           <version>1.0</version>
+        </dependency>
+        <!-- Logging library -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.22.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.22.1</version>
+        </dependency>
+        <!-- JCommander arguments analyzer -->
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>1.82</version>
+        </dependency>
+        <!-- Mockito dependency for unit testing -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>3.9.0</version> <!-- Use the latest version -->
+            <scope>test</scope>
+        </dependency>
+     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.2</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <!-- ... other compiler configurations ... -->
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <!-- Specifies the directory where the generated JavaDoc will be placed -->
+                    <outputDirectory>${project.build.directory}/doc/apidoc</outputDirectory>
+                    <!-- Specifies the JavaDoc title -->
+                    <doctitle>LV223 Project Documentation</doctitle>
+                    <!-- Specifies additional command line options -->
+                    <additionalparam>-Xdoclint:none</additionalparam>
+                    <!-- Specifies encoding used by source files -->
+                    <charset>UTF-8</charset>
+                    <!-- Specifies the version of Java to be used -->
+                    <source>8</source>
+                    <!-- Sets the level of JavaDoc to generate (public, protected, package, private) -->
+                    <show>public</show>
+                    <!-- Specifies if the JavaDoc should be generated for test sources -->
+                    <includeTests>false</includeTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

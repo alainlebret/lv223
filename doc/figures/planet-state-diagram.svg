@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentStyleType="text/css"
+   data-diagram-type="STATE"
+   height="524px"
+   preserveAspectRatio="none"
+   style="width:1056px;height:524px;background:#FFFFFF;"
+   version="1.1"
+   viewBox="0 0 1056 524"
+   width="1056px"
+   zoomAndPan="magnify"
+   id="svg15"
+   sodipodi:docname="planet-state-diagram.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.049618321"
+     inkscape:cx="524"
+     inkscape:cy="262"
+     inkscape:window-width="944"
+     inkscape:window-height="245"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg15" />
+  <defs
+     id="defs1" />
+  <g
+     id="g15">
+    <ellipse
+       cx="414.95"
+       cy="16"
+       fill="#222222"
+       rx="10"
+       ry="10"
+       style="stroke:#222222;stroke-width:1;"
+       id="ellipse1" />
+    <g
+       id="g1">
+      <rect
+         fill="#F1F1F1"
+         height="50"
+         rx="12.5"
+         ry="12.5"
+         style="stroke:#181818;stroke-width:0.5;"
+         width="133.4629"
+         x="348.22"
+         y="87"
+         id="rect1" />
+      <line
+         style="stroke:#181818;stroke-width:0.5;"
+         x1="348.22"
+         x2="481.6829"
+         y1="113.4883"
+         y2="113.4883"
+         id="line1" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="113.4629"
+         x="358.22"
+         y="105.5352"
+         id="text1">GoodHealthState</text>
+    </g>
+    <g
+       id="g2">
+      <rect
+         fill="#F1F1F1"
+         height="50"
+         rx="12.5"
+         ry="12.5"
+         style="stroke:#181818;stroke-width:0.5;"
+         width="173.4805"
+         x="447.21"
+         y="214"
+         id="rect2" />
+      <line
+         style="stroke:#181818;stroke-width:0.5;"
+         x1="447.21"
+         x2="620.6905"
+         y1="240.4883"
+         y2="240.4883"
+         id="line2" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="153.4805"
+         x="457.21"
+         y="232.5352"
+         id="text2">MelancholyHealthState</text>
+    </g>
+    <g
+       id="g3">
+      <rect
+         fill="#F1F1F1"
+         height="50"
+         rx="12.5"
+         ry="12.5"
+         style="stroke:#181818;stroke-width:0.5;"
+         width="156.4863"
+         x="400.71"
+         y="468"
+         id="rect3" />
+      <line
+         style="stroke:#181818;stroke-width:0.5;"
+         x1="400.71"
+         x2="557.1963"
+         y1="494.4883"
+         y2="494.4883"
+         id="line3" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="136.4863"
+         x="410.71"
+         y="486.5352"
+         id="text3">UnstableHealthState</text>
+    </g>
+    <g
+       id="g4">
+      <rect
+         fill="#F1F1F1"
+         height="50"
+         rx="12.5"
+         ry="12.5"
+         style="stroke:#181818;stroke-width:0.5;"
+         width="145.0293"
+         x="717.43"
+         y="341"
+         id="rect4" />
+      <line
+         style="stroke:#181818;stroke-width:0.5;"
+         x1="717.43"
+         x2="862.4593"
+         y1="367.4883"
+         y2="367.4883"
+         id="line4" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="14"
+         lengthAdjust="spacing"
+         textLength="125.0293"
+         x="727.43"
+         y="359.5352"
+         id="text4">CriticalHealthState</text>
+    </g>
+    <ellipse
+       cx="981.95"
+       cy="493"
+       fill="none"
+       rx="11"
+       ry="11"
+       style="stroke:#222222;stroke-width:1;"
+       id="ellipse4" />
+    <ellipse
+       cx="981.95"
+       cy="493"
+       fill="#222222"
+       rx="6"
+       ry="6"
+       style="stroke:#222222;stroke-width:1;"
+       id="ellipse5" />
+    <!--link *start* to GoodHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0002"
+       data-entity-2="ent0003"
+       data-link-type="dependency"
+       data-source-line="1"
+       id="lnk4">
+      <path
+         d="M414.95,26.36 C414.95,40.29 414.95,60.95 414.95,80.65"
+         fill="none"
+         id="*start*-to-GoodHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="414.95,86.65,418.95,77.65,414.95,81.65,410.95,77.65,414.95,86.65"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon5" />
+    </g>
+    <!--link GoodHealthState to MelancholyHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0003"
+       data-entity-2="ent0005"
+       data-link-type="dependency"
+       data-source-line="2"
+       id="lnk6">
+      <path
+         d="M407.27,137.23 C404.14,151.9 403.06,170.35 411.95,184 C420.48,197.1 427.7263,204.1702 441.5263,211.7202"
+         fill="none"
+         id="GoodHealthState-to-MelancholyHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="446.79,214.6,440.8143,206.7712,442.4036,212.2002,436.9746,213.7895,446.79,214.6"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon6" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="97.3604"
+         x="412.95"
+         y="180.5684"
+         id="text6">Autumn/Winter</text>
+    </g>
+    <!--link MelancholyHealthState to GoodHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0005"
+       data-entity-2="ent0003"
+       data-link-type="dependency"
+       data-source-line="5"
+       id="lnk11">
+      <path
+         d="M532.29,213.8 C530.19,198.96 525.47,180.32 514.95,167 C505.35,154.85 497.4451,148.0369 483.8751,140.3169"
+         fill="none"
+         id="MelancholyHealthState-to-GoodHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="478.66,137.35,484.5048,145.2771,483.0059,139.8224,488.4606,138.3236,478.66,137.35"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon7" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="99.1567"
+         x="524.93"
+         y="180.5684"
+         id="text7">Spring/Summer</text>
+    </g>
+    <!--link GoodHealthState to UnstableHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0003"
+       data-entity-2="ent0007"
+       data-link-type="dependency"
+       data-source-line="3"
+       id="lnk8">
+      <path
+         d="M347.94,123.2 C230.46,144.19 6,199.84 74.95,311 C144.82,423.67 298.0517,465.6932 394.4317,481.7632"
+         fill="none"
+         id="GoodHealthState-to-UnstableHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="400.35,482.75,392.1304,477.3243,395.4181,481.9277,390.8147,485.2153,400.35,482.75"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon8" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="237.0977"
+         x="75.95"
+         y="307.5684"
+         id="text8">extractionEvents &gt; MediumThreshold</text>
+    </g>
+    <!--link UnstableHealthState to GoodHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0007"
+       data-entity-2="ent0003"
+       data-link-type="dependency"
+       data-source-line="9"
+       id="lnk15">
+      <path
+         d="M456.92,467.61 C428.93,434.82 382.09,373.38 363.95,311 C345.86,248.8 376.5661,179.8949 397.3661,142.4549"
+         fill="none"
+         id="UnstableHealthState-to-GoodHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="400.28,137.21,392.4126,143.1348,397.8518,141.5808,399.4058,147.02,400.28,137.21"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon9" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="132.3296"
+         x="364.95"
+         y="307.5684"
+         id="text9">improvingConditions</text>
+    </g>
+    <!--link GoodHealthState to CriticalHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0003"
+       data-entity-2="ent0009"
+       data-link-type="dependency"
+       data-source-line="4"
+       id="lnk10">
+      <path
+         d="M481.88,119.05 C527.19,125.57 586.95,139.08 632.95,167 C704.02,210.13 753.1357,292.5747 775.2957,335.2647"
+         fill="none"
+         id="GoodHealthState-to-CriticalHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="778.06,340.59,777.4637,330.7592,775.7564,336.1523,770.3634,334.4449,778.06,340.59"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon10" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="226.332"
+         x="730.69"
+         y="244.0684"
+         id="text10">extractionEvents &gt;= HighThreshold</text>
+    </g>
+    <!--link MelancholyHealthState to CriticalHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0005"
+       data-entity-2="ent0009"
+       data-link-type="dependency"
+       data-source-line="6"
+       id="lnk12">
+      <path
+         d="M553.01,264.19 C566.34,279.61 585.37,298.89 605.95,311 C625.1,322.27 668.5099,334.9723 711.2199,345.9823"
+         fill="none"
+         id="MelancholyHealthState-to-CriticalHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="717.03,347.48,709.3134,341.36,712.1883,346.2319,707.3164,349.1068,717.03,347.48"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon11" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="133.4785"
+         x="606.95"
+         y="307.5684"
+         id="text11">worseningConditions</text>
+    </g>
+    <!--link UnstableHealthState to CriticalHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0007"
+       data-entity-2="ent0009"
+       data-link-type="dependency"
+       data-source-line="7"
+       id="lnk13">
+      <path
+         d="M557.42,487.23 C608.33,481.25 674.52,467.87 725.95,438 C745.61,426.58 759.001,411.8878 770.511,396.1978"
+         fill="none"
+         id="UnstableHealthState-to-CriticalHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="774.06,391.36,765.5113,396.2508,771.1025,395.3915,771.9618,400.9828,774.06,391.36"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon12" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="175.481"
+         x="747.71"
+         y="434.5684"
+         id="text12">shouldTransitionToCritical()</text>
+    </g>
+    <!--link CriticalHealthState to UnstableHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0009"
+       data-entity-2="ent0007"
+       data-link-type="dependency"
+       data-source-line="10"
+       id="lnk16">
+      <path
+         d="M717.13,384.93 C708,387.04 698.77,389.12 689.95,391 C619.19,406.11 590.99,382.16 529.95,421 C512.28,432.24 501.7159,446.7342 493.0759,462.5542"
+         fill="none"
+         id="CriticalHealthState-to-UnstableHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="490.2,467.82,498.0244,461.8385,492.5966,463.4318,491.0033,458.004,490.2,467.82"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon13" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="186.1196"
+         x="530.95"
+         y="434.5684"
+         id="text13">shouldTransitionToUnstable()</text>
+    </g>
+    <!--link UnstableHealthState to MelancholyHealthState-->
+    <g
+       class="link"
+       data-entity-1="ent0007"
+       data-entity-2="ent0005"
+       data-link-type="dependency"
+       data-source-line="8"
+       id="lnk14">
+      <path
+         d="M480.11,467.63 C481.94,437.53 486.44,384.91 496.95,341 C503.38,314.12 512.422,290.0941 520.862,269.9441"
+         fill="none"
+         id="UnstableHealthState-to-MelancholyHealthState"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="523.18,264.41,516.0135,271.1659,521.2483,269.0218,523.3924,274.2566,523.18,264.41"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon14" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="201.8999"
+         x="497.95"
+         y="371.0684"
+         id="text14">shouldTransitionToMelancholy()</text>
+    </g>
+    <!--link CriticalHealthState to *end*-->
+    <g
+       class="link"
+       data-entity-1="ent0009"
+       data-entity-2="ent0017"
+       data-link-type="dependency"
+       data-source-line="11"
+       id="lnk18">
+      <path
+         d="M862.92,381.1 C890.33,389.22 920.29,401.77 942.95,421 C962.57,437.66 972.2153,461.0739 977.1753,476.3339"
+         fill="none"
+         id="CriticalHealthState-to-*end*"
+         style="stroke:#181818;stroke-width:1;" />
+      <polygon
+         fill="#181818"
+         points="979.03,482.04,980.0521,472.2443,977.4844,477.2849,972.4439,474.7172,979.03,482.04"
+         style="stroke:#181818;stroke-width:1;"
+         id="polygon15" />
+      <text
+         fill="#000000"
+         font-family="sans-serif"
+         font-size="13"
+         lengthAdjust="spacing"
+         textLength="89.4766"
+         x="958.54"
+         y="434.5684"
+         id="text15">isPlanetDead()</text>
+    </g>
+</g>
+</svg>

@@ -1,0 +1,64 @@
+FUNCTION_BLOCK Rules
+
+// Definition of inputs for our fuzzy engine
+VAR_INPUT
+    energyLevel : REAL; // Energy level (0-100)
+    inputHealthyLevel : REAL; // Healthy level (0-100)
+END_VAR
+
+// Definition of output for our fuzzy engine
+VAR_OUTPUT
+    outputHealthyLevel : REAL;   // Output healthy level (0-100)
+END_VAR
+
+// Definition of fuzzy terms for energy level
+FUZZIFY energyLevel
+    TERM small := (1,1) (10,1) (20,0);          // Low energy
+    TERM medium := (10,0) (20,1) (40,1) (60,0); // Medium energy
+    TERM large := (40,0) (60,1) (100,1);         // High energy
+END_FUZZIFY
+
+// Definition of fuzzy terms for input healthy level
+FUZZIFY inputHealthyLevel
+    TERM insignificant := (1,1) (8, 1) (14,0);  // Very poor health
+    TERM small := (8,0) (14,1) (36,1) (44,0);   // Poor health
+    TERM medium := (36,0) (44,1) (66,1) (72,0); // Moderate health
+    TERM large := (66,0) (72,1) (100,1);         // Good health
+END_FUZZIFY
+
+
+// Definition of fuzzy terms for the output healthy level
+DEFUZZIFY outputHealthyLevel
+    TERM limited := (0,1) (1,1) (5,0);          // Limited outputHealthyLevel
+    TERM small := (1,0) (5,1) (10,1) (15,0);    // Small outputHealthyLevel
+    TERM medium := (10,0) (15,1) (50,1) (60,0); // Medium outputHealthyLevel
+    TERM large := (50,0) (60,1) (75,1) (85,0);  // Large outputHealthyLevel
+    TERM important := (75,0) (85,1) (100,1);    // Important outputHealthyLevel
+    METHOD : COG;  // Using the center of gravity to defuzzify
+    DEFAULT := 0;  // Default value
+END_DEFUZZIFY
+
+// Rules block for the fuzzy logic
+// Low energy + poor health => very low output health
+// High energy + good health => high output health
+RULEBLOCK No1
+	AND : MIN;   // Using 'min' for the AND operator ('max' for the OR operator)
+	ACT : MIN;   // Using 'min' as the activation method
+	ACCU : MAX;  // Using 'max' as the accumulation method
+
+	RULE 1 : IF energyLevel IS small AND inputHealthyLevel IS insignificant THEN outputHealthyLevel IS limited;
+	RULE 2 : IF energyLevel IS small AND inputHealthyLevel IS small THEN outputHealthyLevel IS limited;
+	RULE 3 : IF energyLevel IS small AND inputHealthyLevel IS medium THEN outputHealthyLevel IS small;
+    RULE 4 : IF energyLevel IS small AND inputHealthyLevel IS large THEN outputHealthyLevel IS medium;
+    RULE 5 : IF energyLevel IS medium AND inputHealthyLevel IS insignificant THEN outputHealthyLevel IS small;
+    RULE 6 : IF energyLevel IS medium AND inputHealthyLevel IS small THEN outputHealthyLevel IS medium;
+    RULE 7 : IF energyLevel IS medium AND inputHealthyLevel IS medium THEN outputHealthyLevel IS medium;
+    RULE 8 : IF energyLevel IS medium AND inputHealthyLevel IS large THEN outputHealthyLevel IS large;
+    RULE 9 : IF energyLevel IS large AND inputHealthyLevel IS insignificant THEN outputHealthyLevel IS small;
+    RULE 10 : IF energyLevel IS large AND inputHealthyLevel IS small THEN outputHealthyLevel IS medium;
+    RULE 11 : IF energyLevel IS large AND inputHealthyLevel IS medium THEN outputHealthyLevel IS large;
+    RULE 12 : IF energyLevel IS large AND inputHealthyLevel IS large THEN outputHealthyLevel IS important;
+
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK

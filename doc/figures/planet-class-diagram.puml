@@ -1,0 +1,154 @@
+@startuml
+skin rose
+
+package "fr.ensicaen.lv223.planet" {
+    class Planet {
+        - grid : Cell[][]
+        - healthStateHandler : HealthStateHandler
+        - seasonHandler : SeasonHandler
+        + getGrid() : Cell[][]
+        + getHealthStateHandler() : HealthStateHandler
+        + getSeasonHandler() : SeasonHandler
+        + nextTurn() : void
+    }
+
+    class Cell {
+        - type : CellType
+        - units : int
+        - visited : boolean
+        + getType() : CellType
+        + getUnits() : int
+    }
+
+    enum CellType {
+        WATER
+        MINERAL
+        FOREST
+        PRAIRIE
+        DRY_PRAIRIE
+        WET_PRAIRIE
+        DESERT
+        CROPS
+        IMPENETRABLE
+    }
+}
+
+package "fr.ensicaen.lv223.planet.server" {
+    interface RequestHandler {
+        + handleRequest(context : RequestContext) : String
+    }
+
+    class RequestContext {
+        - actionRequest : ActionRequest
+        - server : PlanetServer
+        + getAction() : String
+        + getRobotId() : String
+        + getRobotType() : String
+        + getParameters() : Map<String, Object>
+        + getServer() : PlanetServer
+    }
+
+    enum RequestType {
+        SCAN
+        MOVE
+        CULTIVATE
+        HARVEST
+        PIPE
+        PUMP
+        MINE
+    }
+
+    class PlanetServer {
+        - planet : Planet
+        - requestHandlers : Map<RequestType, RequestHandler>
+        + answerToRequest(request : String) : String
+    }
+}
+
+package "fr.ensicaen.lv223.planet.season" {
+    enum Season {
+        SUMMER
+        AUTUMN
+        WINTER
+        SPRING
+    }
+
+    class SeasonHandler {
+        - currentSeason : Season
+        + getCurrentSeason() : Season
+        + changeSeason() : void
+    }
+}
+
+package "fr.ensicaen.lv223.planet.healthstates" {
+    interface HealthState {
+        + updateHealth(planet : Planet) : void
+        + getNumericalValue() : int
+    }
+
+    class GoodHealthState implements HealthState {
+    }
+
+    class MelancholyHealthState implements HealthState {
+    }
+
+    class CriticalHealthState implements HealthState {
+    }
+
+    class UnstableHealthState implements HealthState {
+    }
+
+    class HealthStateHandler {
+        - currentHealthState : HealthState
+        + updateHealth(planet : Planet) : void
+        + getHealthState() : HealthState
+    }
+}
+
+package "fr.ensicaen.lv223.planet.metamorphosis" {
+    interface MetamorphosisStrategy {
+        + applySeasonalChanges(planet : Planet, season : Season) : void
+        + applyExtractionChanges(planet : Planet, extractionIntensity : double) : void
+    }
+
+    class StandardMetamorphosisStrategy implements MetamorphosisStrategy {
+    }
+
+    class MetamorphosisHandler {
+        - strategy : MetamorphosisStrategy
+        + applySeasonalChanges(planet : Planet, season : Season) : void
+        + applyExtractionChanges(planet : Planet, mineralExtraction : double, waterExtraction : double) : void
+    }
+}
+
+package "fr.ensicaen.lv223.planet.utils" {
+    enum RobotScenarioType {
+        NONE
+        SEE
+        MOVE
+        MOVE_AND_SCAN
+        MOVE_AND_HARVEST
+        MOVE_AND_PIPE
+        MOVE_AND_MINE
+        MOVE_AND_CULTIVATE
+        PUMP
+        VARIOUS
+    }
+
+    class RobotScenarioManager {
+        - server : PlanetServer
+        + runScenario(scenarioType : RobotScenarioType, planet : Planet) : List<RobotInfo>
+    }
+}
+
+"RobotScenarioManager" --> "PlanetServer" : uses
+"PlanetServer" "1" --> "*" RequestHandler : handles requests via
+"PlanetServer" "1" --> "*" RequestType : dispatches on
+"Planet" "1" --> "1" HealthStateHandler : manages
+"Planet" "1" --> "1" SeasonHandler : manages
+"Planet" "1" --> "*" Cell : contains
+"HealthStateHandler" "1" --> "*" HealthState : holds
+"MetamorphosisHandler" "1" --> "1" MetamorphosisStrategy : employs
+"RequestHandler" ..> "RequestContext" : uses
+
+@enduml

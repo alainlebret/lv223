@@ -1,0 +1,51 @@
+@startuml move-sequence-diagram
+skin rose
+
+actor "Robot" as robot
+control "RobotEnvironmentFacade" as facade
+control "PlanetServerConnection" as connection
+entity "Planet Server" as server
+control "MoveRequestHandler" as handler
+database "Planet Data" as data
+
+' -- Connection initialization --
+connection -> server : connect()
+activate server
+server --> connection : connectionEstablished()
+deactivate server
+
+' -- Move action initiated by a robot --
+robot -> facade : moveRobot(robot, direction)
+activate facade
+facade -> connection : sendRequest(JSON move request {x, y, newX, newY})
+activate connection
+connection -> server : forwardRequest(JSON move request)
+activate server
+server -> handler : handleRequest(context)
+activate handler
+handler -> data : queryEnvironment()
+activate data
+data --> handler : environmentData
+deactivate data
+handler --> server : moveResult (JSON)
+deactivate handler
+server --> connection : moveResult (JSON)
+deactivate server
+connection --> facade : response (JSON)
+deactivate connection
+facade -> facade : dispatch(response, robot, targetGlobal)
+facade -> facade : processServerResponse(response)\n[notify injured robots if any]
+facade --> robot : (robot location updated)
+deactivate facade
+
+' -- GUI state push (server-initiated, each turn) --
+server -> robot : pushGridState (4-byte length + JSON payload)
+note right : GUI receives pushed state;\nno pull request needed
+
+' -- Disconnection --
+connection -> server : disconnect()
+activate server
+server --> connection : confirmDisconnection()
+deactivate server
+
+@enduml

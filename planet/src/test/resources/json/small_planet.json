@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "date": "2023-08-26",
+    "gridSize": {
+      "width": 5,
+      "height": 2
+    }
+  },
+  "cells": [
+    {
+      "x": 0,
+      "y": 0,
+      "type": "WATER",
+      "quantity": 100,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "type": "STONE",
+      "quantity": 0,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "type": "BASE",
+      "quantity": 0,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "type": "DRY_PRAIRIE",
+      "quantity": 0,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "type": "PRAIRIE",
+      "quantity": 0,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "type": "WET_PRAIRIE",
+      "quantity": 0,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "type": "DESERT",
+      "quantity": 0,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "type": "FRUITS_AND_VEGETABLES",
+      "quantity": 70,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "type": "IMPENETRABLE",
+      "quantity": 0,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "type": "FOREST",
+      "quantity": 90,
+      "visited": "false",
+      "modified": "false",
+      "has_pipeline": "false"
+    }
+  ]
+}

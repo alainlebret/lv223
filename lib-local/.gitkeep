@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+merge_colony.sh
+merge_planet.sh
+merged_planet.txt
+merged_colony.txt
+*.md.new
+*.sh
+tree.txt
+target/*
+

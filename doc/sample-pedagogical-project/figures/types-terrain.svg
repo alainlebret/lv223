@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="192.53397mm"
+   height="81.800148mm"
+   viewBox="0 0 192.53397 81.800148"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="types_terrain.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <metadata id="metadata-author">
+    <rdf:RDF
+       xmlns:dc="http://purl.org/dc/elements/1.1/"
+       xmlns:cc="http://creativecommons.org/ns#"
+       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Alain Lebret</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.74070263"
+     inkscape:cx="337.51737"
+     inkscape:cy="289.5899"
+     inkscape:window-width="1472"
+     inkscape:window-height="838"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="91.444702"
+       originy="-28.933676"
+       spacingx="0.26458333"
+       spacingy="0.26458334"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(91.444702,-28.933676)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.242741"
+       id="rect24"
+       width="192.53397"
+       height="81.800148"
+       x="-91.444702"
+       y="28.933676" />
+    <rect
+       style="fill:#87cefa;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect1"
+       width="15.728007"
+       height="16.152733"
+       x="-84.526825"
+       y="31.674484" />
+    <rect
+       style="fill:#708090;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect2"
+       width="15.728007"
+       height="16.152733"
+       x="-47.805519"
+       y="31.674484" />
+    <rect
+       style="fill:#f0e68c;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect3"
+       width="15.728007"
+       height="16.152733"
+       x="-10.638623"
+       y="31.674484" />
+    <rect
+       style="fill:#90ee90;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect4"
+       width="15.728007"
+       height="16.152733"
+       x="26.451653"
+       y="31.674484" />
+    <rect
+       style="fill:#3cb371;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect5"
+       width="15.728007"
+       height="16.152733"
+       x="63.493237"
+       y="31.674484" />
+    <rect
+       style="fill:#fff8dc;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect6"
+       width="15.728007"
+       height="16.152733"
+       x="-10.414845"
+       y="73.824776" />
+    <rect
+       style="fill:#c0c0c0;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect7"
+       width="15.728007"
+       height="16.152733"
+       x="26.66865"
+       y="74.252724" />
+    <rect
+       style="fill:#e9967a;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect8"
+       width="15.728007"
+       height="16.152733"
+       x="-47.796898"
+       y="73.895515" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect9"
+       width="15.728007"
+       height="16.152733"
+       x="63.552147"
+       y="73.827995" />
+    <rect
+       style="fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.251392"
+       id="rect10"
+       width="15.728007"
+       height="16.152733"
+       x="-84.565331"
+       y="73.827995" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-85.794403"
+       y="58.203541"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="-85.794403"
+         y="58.203541">Water</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-49.177544"
+       y="58.245872"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="-49.177544"
+         y="58.245872">Stone</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-18.857021"
+       y="57.995399"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="-18.857021"
+         y="57.995399">Dry Prairie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="24.43211"
+       y="57.982117"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="24.43211"
+         y="57.982117">Prairie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="55.773415"
+       y="57.982117"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="55.773415"
+         y="57.982117">Wet Prairie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-12.575746"
+       y="100.52578"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="-12.575746"
+         y="100.52578">Desert</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="22.957155"
+       y="100.69669"
+       id="text19"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="22.957155"
+         y="100.69669">Mineral</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-51.999985"
+       y="99.914764"
+       id="text20"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="-51.999985"
+         y="99.914764">Fruits &amp;</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-57.609169"
+       y="107.92335"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="-57.609169"
+         y="107.92335">Vegetables</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="50.646511"
+       y="100.52473"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="50.646511"
+         y="100.52473">Impenetrable</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;fill:#6b8e23;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-87.231773"
+       y="100.883"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans';fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="-87.231773"
+         y="100.883">Forest</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+@startuml planet-sequence-diagram
+skin rose
+
+participant "ColonyManager" as CM
+participant "PlanetServerConnection" as PSC
+participant "PlanetServer" as PS
+participant "Planet" as P
+participant "PlanetGUI" as GUI
+
+== Connection phase ==
+CM -> PSC : new PlanetServerConnection(host, port)
+PSC -> PS : connect (sends "COLONY_CLIENT")
+GUI -> PS : connect (sends "GUI_CLIENT")
+
+== Per-turn simulation loop ==
+loop each simulated day
+
+    PS -> GUI : pushGridState(4-byte length + JSON payload)
+    PS -> PS : wait for endOfTurn (timeout 2 s)
+
+    CM -> CM : centralizer.coordinate()
+    CM -> CM : each Robot.performTask()
+    CM -> PSC : sendEndOfTurnMessage()
+    PSC -> PS : endOfTurn (JSON)
+
+    alt demo mode
+        GUI --> PS : ACK
+    end
+
+    PS -> P : nextTurn()
+    P -> P : season / health / metamorphosis updates
+    PS --> PSC : turn complete
+    PSC --> CM : waitForTurnCompletion() returns
+
+end
+
+== Disconnection ==
+CM -> PSC : close()
+PSC -> PS : disconnect
+
+@enduml

@@ -1,0 +1,64 @@
+@startuml detailed-move-sequence-diagram
+skin rose
+
+actor "Robot" as R
+participant "RobotEnvironmentFacade" as Facade
+participant "ActionRequestFactory" as ARF
+participant "PlanetServerConnection" as PSC
+participant "PlanetServer" as PS
+participant "MoveRequestHandler" as MRQH
+participant "ResponseDispatcher" as RD
+participant "ActionResponseHandler" as ARH
+participant "MoveResponseHandler" as MRSH
+
+' --- Robot initiates a move operation ---
+R -> R: navigate(Direction)
+activate R
+R -> Facade: moveRobot(robot, direction)
+activate Facade
+
+' --- Facade prepares the move request ---
+Facade -> Facade: translateToGlobal(robot.getCurrentLocation())
+Facade -> Facade: translateToGlobalDirection(currentGlobal, direction)
+Facade -> ARF: createActionRequest("move", robot.getName(), robot.getType(), {x, y, newX, newY})
+ARF --> Facade: moveRequest (JSON)
+
+' --- Facade sends the move request ---
+Facade -> PSC: sendRequest(moveRequest)
+activate PSC
+
+' --- PlanetServerConnection forwards request to PlanetServer ---
+PSC -> PS: forwardRequest(moveRequest)
+activate PS
+
+' --- PlanetServer dispatches to MoveRequestHandler (server side) ---
+PS -> MRQH: handleRequest(context)
+activate MRQH
+MRQH -> MRQH: validate and apply move on planet grid
+MRQH --> PS: JSON response (new global position, affectedRobots)
+deactivate MRQH
+
+PS --> PSC: JSON response
+deactivate PS
+PSC --> Facade: JSON response
+deactivate PSC
+
+' --- Facade parses and dispatches the response (colony side) ---
+Facade -> ARH: parseResponse(JSON response)
+ARH --> Facade: ActionResponse
+Facade -> RD: dispatch(ActionResponse, robot, targetGlobal)
+activate RD
+RD -> MRSH: handleResponse(ActionResponse, robot, targetGlobal)
+activate MRSH
+MRSH -> MRSH: translateToLocalStatic(targetGlobal, baseX, baseY)
+MRSH -> R: setCurrentLocation(newLocal)
+deactivate MRSH
+deactivate RD
+
+' --- Facade checks for injury notifications ---
+Facade -> Facade: processServerResponse(JSON response)
+note right : if affectedRobots contains injury > 0,\nnotifyObservers(INJURED feedback)
+deactivate Facade
+deactivate R
+
+@enduml

@@ -1,0 +1,63 @@
+@startuml detailed-scan-sequence-diagram
+skin rose
+
+actor "Robot" as R
+participant "RobotEnvironmentFacade" as Facade
+participant "ActionRequestFactory" as ARF
+participant "PlanetServerConnection" as PSC
+participant "PlanetServer" as PS
+participant "ScanRequestHandler" as SRQH
+participant "ResponseDispatcher" as RD
+participant "ActionResponseHandler" as ARH
+participant "ScanResponseHandler" as SRSH
+
+' --- Robot initiates scan (via its SensingManager) ---
+R -> R: scan()
+activate R
+R -> Facade: scan(robot)
+activate Facade
+
+' --- Facade prepares the scan request ---
+Facade -> Facade: translateToGlobal(robot.getCurrentLocation())
+Facade -> ARF: createActionRequest("scan", robot.getName(), robot.getType(), { x, y })
+ARF --> Facade: scanRequest (JSON)
+
+' --- Facade sends scan request via PlanetServerConnection ---
+Facade -> PSC: sendRequest(scanRequest)
+activate PSC
+
+' --- PlanetServerConnection forwards request to PlanetServer ---
+PSC -> PS: forwardRequest(scanRequest)
+activate PS
+
+' --- PlanetServer dispatches to ScanRequestHandler (server side) ---
+PS -> SRQH: handleRequest(context)
+activate SRQH
+SRQH -> SRQH: collect neighbourhood cells
+SRQH --> PS: JSON response (detectedCells, affectedRobots)
+deactivate SRQH
+
+PS --> PSC: JSON response
+deactivate PS
+PSC --> Facade: JSON response
+deactivate PSC
+
+' --- Facade parses and dispatches the response (colony side) ---
+Facade -> ARH: parseResponse(JSON response)
+ARH --> Facade: ActionResponse
+Facade -> RD: dispatch(ActionResponse, robot, currentGlobal)
+activate RD
+RD -> SRSH: handleResponse(ActionResponse, robot, currentGlobal)
+activate SRSH
+SRSH -> SRSH: translateToLocalStatic(globalCoord, baseX, baseY)\nfor each detectedCell
+SRSH -> R: robot.getLocalMap().updateCell(localCoord, cell)\nfor each detectedCell
+deactivate SRSH
+deactivate RD
+
+' --- Facade checks for injury notifications ---
+Facade -> Facade: processServerResponse(JSON response)
+note right : if affectedRobots contains injury > 0,\nnotifyObservers(INJURED feedback)
+deactivate Facade
+deactivate R
+
+@enduml
