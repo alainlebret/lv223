@@ -1,11 +1,4 @@
-<!--
-LV-223 (Colonization) multi-agent simulation
-
-Copyright (c) 2019–2026 Alain Lebret (ENSICAEN)
-
-SPDX-License-Identifier: MIT
--->
-
+<!-- LV-223 (Colonization) multi-agent simulation Copyright (c) 2019–2026 Alain Lebret (ENSICAEN) SPDX-License-Identifier: MIT -->
 # LV-223 – Planet simulation and robot colony project
 
 The planet simulation project is an educational framework designed to explore simple artificial intelligence strategies within a dynamic planetary ecosystem. It consists of three modules:
