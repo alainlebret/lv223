@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!--
 LV-223 (Colonization) multi-agent simulation
 
